@@ -1,0 +1,1997 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yatra Sathi Travels</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Top Contact Bar -->
+<div
+  class="hidden lg:block bg-gradient-to-r from-slate-950 via-slate-900 to-slate-800 text-white shadow-lg"
+>
+  <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center">
+    <a
+      href="mailto:sunshinetourandtravelsindia@gmail.com"
+      class="group bg-gradient-to-r from-amber-500 to-yellow-500 text-slate-900 font-semibold px-4 py-2.5 sm:px-6 sm:py-3 flex items-center gap-2 w-full lg:w-auto justify-center transition-all duration-300 hover:brightness-110 hover:shadow-lg hover:shadow-amber-500/30"
+    >
+      <i
+        class="fa-solid fa-envelope transition-transform duration-300 group-hover:scale-125"
+      ></i>
+      <span class="text-xs sm:text-sm tracking-wide break-all"
+        >yatrasathitravels@gmail.com</span
+      >
+    </a>
+
+    <div
+      class="w-full flex-1 grid grid-cols-1 xs:grid-cols-3 sm:flex sm:flex-row items-center justify-center lg:justify-evenly divide-y divide-white/5 xs:divide-y-0 xs:divide-x divide-white/5 lg:divide-x-0"
+    >
+      <a
+        href="tel:+918538833174"
+        class="group flex items-center justify-center gap-2 px-3 py-2.5 sm:px-6 sm:py-3 text-xs sm:text-sm transition-all duration-300 hover:bg-white/5 hover:text-amber-400 lg:hover:-translate-y-1 lg:rounded-md"
+      >
+        <i
+          class="fa-solid fa-phone text-amber-400 sm:text-white transition-all duration-300 group-hover:rotate-12 group-hover:scale-125"
+        ></i>
+        <span class="font-medium opacity-90 group-hover:opacity-100"
+          >+91 85388 33174</span
+        >
+      </a>
+
+      <a
+        href="tel:+918116374561"
+        class="group flex items-center justify-center gap-2 px-3 py-2.5 sm:px-6 sm:py-3 text-xs sm:text-sm transition-all duration-300 hover:bg-white/5 hover:text-amber-400 lg:hover:-translate-y-1 lg:rounded-md"
+      >
+        <i
+          class="fa-solid fa-phone text-amber-400 sm:text-white transition-all duration-300 group-hover:rotate-12 group-hover:scale-125"
+        ></i>
+        <span class="font-medium opacity-90 group-hover:opacity-100"
+          >+91 81163 74561</span
+        >
+      </a>
+
+      <a
+        href="tel:+97577767734"
+        class="group flex items-center justify-center gap-2 px-3 py-2.5 sm:px-6 sm:py-3 text-xs sm:text-sm transition-all duration-300 hover:bg-white/5 hover:text-amber-400 lg:hover:-translate-y-1 lg:rounded-md"
+      >
+        <i
+          class="fa-solid fa-phone text-amber-400 sm:text-white transition-all duration-300 group-hover:rotate-12 group-hover:scale-125"
+        ></i>
+        <span class="font-medium opacity-90 group-hover:opacity-100"
+          >+975 77767734</span
+        >
+      </a>
+    </div>
+  </div>
+
+  <div
+    class="h-[3px] bg-gradient-to-r from-amber-500 via-yellow-300 to-amber-500"
+  ></div>
+</div>
+    <!-- navbar-section -->
+<div class="w-full sticky top-0 z-50 shadow-2xl">
+  <!-- Tailwind Custom Style Section for the Ringing Animation -->
+  <style>
+    @keyframes phone-ring {
+      0% { transform: rotate(0deg) scale(1); }
+      10% { transform: rotate(-15deg) scale(1.1); }
+      20% { transform: rotate(15deg) scale(1.1); }
+      30% { transform: rotate(-15deg) scale(1.1); }
+      40% { transform: rotate(15deg) scale(1.1); }
+      50% { transform: rotate(0deg) scale(1); }
+      100% { transform: rotate(0deg) scale(1); }
+    }
+    .animate-phone-ring {
+      display: inline-block;
+      animation: phone-ring 1.5s infinite ease-in-out;
+    }
+  </style>
+
+  <nav class="bg-slate-900 border-b border-white/10 backdrop-blur-md bg-opacity-95">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Navbar Container - Balanced 3-column grid for precise mobile layout -->
+      <div class="grid grid-cols-3 items-center h-20 lg:flex lg:justify-between">
+        
+        <!-- 1. Left Side: Logo -->
+        <div class="flex justify-start">
+          <a href="#" class="flex items-center py-1 select-none">
+            <img
+              src="img/logo.png"
+              alt="YATRA SATHI TRAVELS"
+              class="h-10 lg:h-14 w-auto object-contain transition-transform duration-300 hover:scale-105 filter drop-shadow-[0_2px_8px_rgba(255,255,255,0.15)]"
+            />
+          </a>
+        </div>
+
+        <!-- Desktop Menu Links (Hidden on Mobile) -->
+        <div class="hidden lg:flex items-center gap-1 xl:gap-2">
+          <a href="#" class="px-3 py-2 rounded-lg text-sm xl:text-base font-medium text-slate-200 hover:text-orange-500 hover:bg-white/5 transition-all duration-300">Home</a>
+          <a href="#" class="px-3 py-2 rounded-lg text-sm xl:text-base font-medium text-slate-400 hover:text-orange-500 hover:bg-white/5 transition-all duration-300">About</a>
+
+          <!-- Packages Dropdown -->
+          <div class="relative group/dropdown">
+            <button class="flex items-center gap-1 px-3 py-2 rounded-lg text-sm xl:text-base font-medium text-slate-400 group-hover/dropdown:text-orange-500 group-hover/dropdown:bg-white/5 transition-all duration-300 focus:outline-none">
+              <span>Packages</span>
+              <i class="fa-solid fa-chevron-down text-[10px] group-hover/dropdown:rotate-180 transition-transform duration-300"></i>
+            </button>
+            <div class="absolute left-0 mt-2 w-56 opacity-0 invisible group-hover/dropdown:opacity-100 group-hover/dropdown:visible bg-slate-950 border border-white/10 rounded-xl shadow-2xl p-2 transition-all duration-300 transform translate-y-2 group-hover/dropdown:translate-y-0 z-50">
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Bhutan</a>
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Darjeeling</a>
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Dooars</a>
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Sikkim</a>
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Assam</a>
+            </div>
+          </div>
+
+          <!-- Destinations Dropdown -->
+          <div class="relative group/dropdown">
+            <button class="flex items-center gap-1 px-3 py-2 rounded-lg text-sm xl:text-base font-medium text-slate-400 group-hover/dropdown:text-orange-500 group-hover/dropdown:bg-white/5 transition-all duration-300 focus:outline-none">
+              <span>Destinations</span>
+              <i class="fa-solid fa-chevron-down text-[10px] group-hover/dropdown:rotate-180 transition-transform duration-300"></i>
+            </button>
+            <div class="absolute left-0 mt-2 w-56 opacity-0 invisible group-hover/dropdown:opacity-100 group-hover/dropdown:visible bg-slate-950 border border-white/10 rounded-xl shadow-2xl p-2 transition-all duration-300 transform translate-y-2 group-hover/dropdown:translate-y-0 z-50">
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Bhutan</a>
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Darjeeling</a>
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Dooars</a>
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Sikkim</a>
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Assam</a>
+            </div>
+          </div>
+
+          <a href="#" class="px-3 py-2 rounded-lg text-sm xl:text-base font-medium text-slate-400 hover:text-orange-500 hover:bg-white/5 transition-all duration-300">Gallery</a>
+          <a href="#" class="px-3 py-2 rounded-lg text-sm xl:text-base font-medium text-slate-400 hover:text-orange-500 hover:bg-white/5 transition-all duration-300">Blog</a>
+          
+          <!-- Car Rental Dropdown -->
+          <div class="relative group/dropdown">
+            <button class="flex items-center gap-1 px-3 py-2 rounded-lg text-sm xl:text-base font-medium text-slate-400 group-hover/dropdown:text-orange-500 group-hover/dropdown:bg-white/5 transition-all duration-300 focus:outline-none">
+              <span>Car Rental</span>
+              <i class="fa-solid fa-chevron-down text-[10px] group-hover/dropdown:rotate-180 transition-transform duration-300"></i>
+            </button>
+            <div class="absolute left-0 mt-2 w-56 opacity-0 invisible group-hover/dropdown:opacity-100 group-hover/dropdown:visible bg-slate-950 border border-white/10 rounded-xl shadow-2xl p-2 transition-all duration-300 transform translate-y-2 group-hover/dropdown:translate-y-0 z-50">
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Car Rental in Jaigaon</a>
+              <a href="#" class="block px-4 py-2.5 rounded-lg text-sm font-medium text-slate-300 hover:text-white hover:bg-orange-500 transition-all duration-200">Car Rental in Bhutan</a>
+            </div>
+          </div>
+          <a href="#" class="px-3 py-2 rounded-lg text-sm xl:text-base font-medium text-slate-400 hover:text-orange-500 hover:bg-white/5 transition-all duration-300">Contact Us</a>
+        </div>
+
+        <!-- 2. Center Side: Fixed & Enhanced Thick Call Button -->
+        <div class="lg:hidden flex justify-center w-full">
+          <a href="tel:+918116374561" class="flex items-center justify-center gap-2 px-4 py-2.5 rounded-full bg-orange-500 hover:bg-orange-600 text-white font-extrabold transition-all duration-300 shadow-lg shadow-orange-500/30 whitespace-nowrap transform active:scale-95">
+            <!-- Scaled up ringing icon -->
+            <i class="fa-solid fa-phone text-xs sm:text-sm animate-phone-ring"></i>
+            <span class="text-xs sm:text-sm tracking-wide leading-none">+91 81163 74561</span>
+          </a>
+        </div>
+
+        <!-- 3. Right Side: Desktop CTA & Mobile Hamburger Button -->
+        <div class="flex justify-end items-center gap-3">
+          <!-- Desktop CTA Button -->
+          <div class="hidden lg:block">
+            <a href="#" class="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-semibold text-sm px-6 py-2.5 rounded-xl transition-all duration-300 shadow-lg shadow-orange-500/20 transform hover:-translate-y-0.5 uppercase">
+              Book A Trip
+            </a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button id="menuBtn" class="lg:hidden flex items-center justify-center w-10 h-10 rounded-xl bg-white/5 hover:bg-white/10 text-slate-200 transition-all duration-300">
+            <i class="fa-solid fa-bars text-xl"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Menu Container -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-slate-950 border-t border-white/5">
+      <div class="px-4 pt-3 pb-6 space-y-1">
+        <a href="#" class="block px-4 py-3 rounded-xl text-base font-medium text-orange-500 bg-orange-500/10">Home</a>
+        <a href="#" class="block px-4 py-3 rounded-xl text-base font-medium text-slate-400 hover:text-white hover:bg-white/5">About</a>
+
+        <div>
+          <button onclick="toggleMobileSub('mobilePackages')" class="w-full flex items-center justify-between px-4 py-3 rounded-xl text-base font-medium text-slate-400 hover:text-white hover:bg-white/5">
+            <span>Packages</span>
+            <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <div id="mobilePackages" class="hidden pl-6 pr-4 py-1 space-y-1 bg-slate-900/50 rounded-xl mt-1">
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Honeymoon Special</a>
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Family Holiday</a>
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Adventure Tour</a>
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Weekend Getaway</a>
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Budget Friendly</a>
+          </div>
+        </div>
+
+        <div>
+          <button onclick="toggleMobileSub('mobileDestinations')" class="w-full flex items-center justify-between px-4 py-3 rounded-xl text-base font-medium text-slate-400 hover:text-white hover:bg-white/5">
+            <span>Destinations</span>
+            <i class="fa-solid fa-chevron-down text-xs"></i>
+          </button>
+          <div id="mobileDestinations" class="hidden pl-6 pr-4 py-1 space-y-1 bg-slate-900/50 rounded-xl mt-1">
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Darjeeling</a>
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Sikkim</a>
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Bhutan</a>
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Dooars</a>
+            <a href="#" class="block py-2 text-sm text-slate-400 hover:text-orange-500">Kalimpong</a>
+          </div>
+        </div>
+
+        <a href="#" class="block px-4 py-3 rounded-xl text-base font-medium text-slate-400 hover:text-white hover:bg-white/5">Gallery</a>
+        <a href="#" class="block px-4 py-3 rounded-xl text-base font-medium text-slate-400 hover:text-white hover:bg-white/5">Blog</a>
+        <a href="#" class="block px-4 py-3 rounded-xl text-base font-medium text-slate-400 hover:text-white hover:bg-white/5">Car Rental</a>
+        <a href="#" class="block px-4 py-3 rounded-xl text-base font-medium text-slate-400 hover:text-white hover:bg-white/5">Contact Us</a>
+
+        <!-- Mobile Phone Number inside Drawer -->
+        <div class="pt-4 px-4 border-t border-white/5 mt-4">
+          <a href="tel:+918116374561" class="flex items-center justify-center gap-3 w-full bg-slate-900 border border-white/10 text-slate-200 font-semibold py-3 rounded-xl shadow-lg">
+            <i class="fa-solid fa-phone text-orange-500"></i>
+            <span>+91 81163 74561</span>
+          </a>
+        </div>
+
+        <div class="pt-2 px-4">
+          <a href="#" class="block w-full text-center bg-gradient-to-r from-orange-500 to-amber-500 text-white font-semibold py-3 rounded-xl shadow-lg">
+            Book A Trip
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+    <script>
+      // Mobile Main Menu Toggle
+      const menuBtn = document.getElementById("menuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      // Mobile Sub-menu Toggle Function
+      function toggleMobileSub(id) {
+        const subMenu = document.getElementById(id);
+        subMenu.classList.toggle("hidden");
+
+        // Rotate Chevron Icon
+        const eventTarget =
+          event.currentTarget.querySelector(".fa-chevron-down");
+        eventTarget.classList.toggle("rotate-180");
+      }
+    </script>
+
+    <!-- Hero-section -->
+    <section
+      class="relative bg-slate-950 min-h-[calc(100vh-80px)] flex items-center justify-center overflow-hidden py-12 lg:py-20 isolation-auto"
+    >
+      <div class="absolute inset-0 z-0 pointer-events-none">
+        <div class="swiper heroSwiper w-full h-full !absolute">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide relative">
+              <img
+                src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1920"
+                class="w-full h-full object-cover"
+                alt="Bhutan Tour"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
+              ></div>
+            </div>
+            <div class="swiper-slide relative">
+              <img
+                src="https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1920"
+                class="w-full h-full object-cover"
+                alt="Darjeeling"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
+              ></div>
+            </div>
+            <div class="swiper-slide relative">
+              <img
+                src="https://images.unsplash.com/photo-1626014922111-9a7da7c55cb0?q=80&w=1920"
+                class="w-full h-full object-cover"
+                alt="Sikkim"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
+              ></div>
+            </div>
+            <div class="swiper-slide relative">
+              <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1920"
+                class="w-full h-full object-cover"
+                alt="Car Rental Travel"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
+              ></div>
+            </div>
+            <div class="swiper-slide relative">
+              <img
+                src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1920"
+                class="w-full h-full object-cover"
+                alt="Dooars Jungle"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
+              ></div>
+            </div>
+            <div class="swiper-slide relative">
+              <img
+                src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?q=80&w=1920"
+                class="w-full h-full object-cover"
+                alt="Assam Luxury Tour"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"
+              ></div>
+            </div>
+          </div>
+
+          <div
+            class="swiper-pagination !bottom-6 lg:!bottom-10 pointer-events-auto"
+          ></div>
+        </div>
+      </div>
+
+      <div
+        class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+      >
+        <div
+          id="heroDynamicWrapper"
+          class="lg:col-span-7 space-y-6 text-center lg:text-left pt-6 lg:pt-0 transition-all duration-500 ease-in-out opacity-100 transform translate-y-0"
+        >
+          <div
+            id="heroDynamicTag"
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/30 text-orange-500 text-xs sm:text-sm font-semibold tracking-wide uppercase backdrop-blur-sm mx-auto lg:mx-0"
+          >
+            Premium Bhutan Packages
+          </div>
+          <h1
+            class="text-3xl sm:text-5xl lg:text-6xl font-black text-white leading-tight"
+          >
+            <span id="heroDynamicTitle1">Explore The Mystical</span>
+            <br class="hidden sm:inline" />
+            <span
+              id="heroDynamicTitle2"
+              class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-amber-400 to-orange-400"
+            >
+              Kingdom of Bhutan
+            </span>
+          </h1>
+          <p
+            id="heroDynamicDesc"
+            class="text-slate-300 text-sm sm:text-base lg:text-lg max-w-xl mx-auto lg:mx-0 font-medium"
+          >
+            Discover ancient monasteries, stunning valleys, and pristine
+            Himalayan culture.
+          </p>
+        </div>
+
+        <div class="lg:col-span-5 w-full max-w-md mx-auto">
+          <div
+            class="bg-slate-900/90 border border-white/10 rounded-2xl p-6 sm:p-8 shadow-2xl backdrop-blur-xl"
+          >
+            <h3
+              class="text-xl font-bold text-white mb-6 flex items-center gap-2 border-b border-white/10 pb-4"
+            >
+              Book Your Experience
+            </h3>
+            <form class="space-y-4" onsubmit="event.preventDefault()">
+              <div>
+                <label
+                  class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2"
+                  >Where to go?</label
+                >
+                <select
+                  class="w-full bg-slate-950 border border-white/10 rounded-xl px-4 py-3 text-sm text-slate-200 focus:outline-none focus:border-orange-500 cursor-pointer [color-scheme:dark]"
+                >
+                  <option value="" disabled selected>Select Destination</option>
+                  <option value="bhutan">Bhutan Package</option>
+                  <option value="darjeeling">Darjeeling Holiday</option>
+                  <option value="sikkim">Sikkim Adventure</option>
+                  <option value="dooars">Dooars Wildlife</option>
+                </select>
+              </div>
+              <div>
+                <label
+                  class="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2"
+                  >Need a Car?</label
+                >
+                <select
+                  class="w-full bg-slate-950 border border-white/10 rounded-xl px-4 py-3 text-sm text-slate-200 focus:outline-none focus:border-orange-500 cursor-pointer [color-scheme:dark]"
+                >
+                  <option value="none">No, Tour Package Only</option>
+                  <option value="jaigaon">Car Rental in Jaigaon</option>
+                  <option value="bhutan-car">Car Rental in Bhutan</option>
+                </select>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold py-3.5 rounded-xl shadow-lg mt-2 active:scale-[0.99] transition-all"
+              >
+                Find Best Offers
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .heroSwiper {
+        position: absolute !important;
+        overflow: hidden !important;
+      }
+      .heroSwiper .swiper-pagination-bullet {
+        background: rgba(255, 255, 255, 0.4) !important;
+        width: 8px;
+        height: 8px;
+        opacity: 1;
+      }
+      .heroSwiper .swiper-pagination-bullet-active {
+        background: #f97316 !important;
+        width: 24px;
+        border-radius: 4px;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Content dataset for the 6 different slides
+        const slideData = [
+          {
+            tag: "Premium Bhutan Packages",
+            title1: "Explore The Mystical",
+            title2: "Kingdom of Bhutan",
+            desc: "Discover ancient monasteries, stunning valleys, and pristine Himalayan culture.",
+          },
+          {
+            tag: "Queen of the Hills",
+            title1: "Experience Majestic",
+            title2: "Darjeeling Holidays",
+            desc: "Witness the golden sunrise over Kanchenjunga and explore lush green tea gardens.",
+          },
+          {
+            tag: "Alpine Adventure Tour",
+            title1: "Unveil The Magic Of",
+            title2: "Sikkim Landscapes",
+            desc: "Journey through Gurudongmar Lake and clear Tsomgo Pass for ultimate tranquility.",
+          },
+          {
+            tag: "Luxury Fleet Rentals",
+            title1: "Premium & Reliable",
+            title2: "Car Rental Service",
+            desc: "Rent luxury SUVs and comfortable cabs from Jaigaon or Siliguri with expert drivers.",
+          },
+          {
+            tag: "Wildlife & Nature Escape",
+            title1: "Into The Wild Of",
+            title2: "Dooars Green Forests",
+            desc: "Thrill yourself with jungle safaris at Jaldapara and stay close to raw nature.",
+          },
+          {
+            tag: "North-East Gateway",
+            title1: "Discover Beautiful",
+            title2: "Assam Tourism",
+            desc: "Cruise on the mighty Brahmaputra river and explore Kaziranga National Park.",
+          },
+        ];
+
+        // Selecting DOM elements
+        const wrapper = document.getElementById("heroDynamicWrapper");
+        const tagEl = document.getElementById("heroDynamicTag");
+        const title1El = document.getElementById("heroDynamicTitle1");
+        const title2El = document.getElementById("heroDynamicTitle2");
+        const descEl = document.getElementById("heroDynamicDesc");
+
+        if (typeof Swiper !== "undefined") {
+          new Swiper(".heroSwiper", {
+            loop: true,
+            effect: "fade",
+            fadeEffect: { crossFade: true },
+            autoplay: { delay: 4000, disableOnInteraction: false },
+            pagination: { el: ".swiper-pagination", clickable: true },
+            on: {
+              // Dynamic logic to update text values smoothly on slide transition
+              slideChange: function () {
+                const index = this.realIndex;
+                const currentContent = slideData[index];
+
+                if (wrapper && currentContent) {
+                  // 1. Start transition: fade out and slide down the current text
+                  wrapper.classList.remove("opacity-100", "translate-y-0");
+                  wrapper.classList.add("opacity-0", "translate-y-4");
+
+                  // 2. Update text content after 250ms when text becomes completely invisible
+                  setTimeout(() => {
+                    tagEl.textContent = currentContent.tag;
+                    title1El.textContent = currentContent.title1;
+                    title2El.textContent = currentContent.title2;
+                    descEl.textContent = currentContent.desc;
+
+                    // 3. Complete transition: fade in and slide up the new text content
+                    wrapper.classList.remove("opacity-0", "translate-y-4");
+                    wrapper.classList.add("opacity-100", "translate-y-0");
+                  }, 250);
+                }
+              },
+            },
+          });
+        }
+      });
+    </script>
+    <!-- ABOUT US SECTION START -->
+    <section
+      class="relative bg-slate-900 py-16 px-4 sm:px-6 lg:py-24 lg:px-8 overflow-hidden"
+    >
+      <!-- Soft Amber & Orange Glowing Gradients for Luxury Look -->
+      <div
+        class="absolute top-1/3 left-0 w-80 h-80 bg-orange-500/5 rounded-full blur-3xl pointer-events-none"
+      ></div>
+      <div
+        class="absolute bottom-1/3 right-0 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl pointer-events-none"
+      ></div>
+
+      <div
+        class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center"
+      >
+        <!-- LEFT SIDE: Ultra-Professional Asymmetric Image Grid Architecture -->
+        <div class="lg:col-span-5 order-2 lg:order-1 relative py-8 sm:py-12">
+          <!-- Decorative Abstract Frame Background Layer -->
+          <div
+            class="absolute -inset-4 bg-gradient-to-tr from-orange-500/10 via-transparent to-amber-500/5 rounded-[32px] blur-xl opacity-70 pointer-events-none"
+          ></div>
+
+          <div
+            class="relative grid grid-cols-12 gap-4 sm:gap-6 items-center max-w-md mx-auto lg:max-w-none"
+          >
+            <!-- 1. Left Primary Image (Slightly Lowered for Geometric Harmony) -->
+            <div
+              class="col-span-7 transform translate-y-6 sm:translate-y-8 group"
+            >
+              <div
+                class="relative rounded-2xl overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.5)] border border-white/10 aspect-[3/4] bg-slate-950"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=800"
+                  alt="Bhutan Monastery Expedition"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent"
+                ></div>
+              </div>
+            </div>
+
+            <!-- 2. Right Secondary Image (Elevated Position creating the Premium Asymmetric look) -->
+            <div
+              class="col-span-5 transform -translate-y-6 sm:-translate-y-8 group"
+            >
+              <div
+                class="relative rounded-2xl overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.5)] border border-white/10 aspect-[2/3] bg-slate-950"
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=600"
+                  alt="Darjeeling Holiday Tour"
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent"
+                ></div>
+              </div>
+            </div>
+
+            <!-- 3. Absolute Floating Badge: Trustpilot & Eco Combo (Ultra Clean Glassmorphism) -->
+            <div
+              class="absolute z-20 -bottom-2 left-6 right-6 sm:left-auto sm:right-0 sm:w-64 bg-slate-950/85 border border-white/10 rounded-2xl p-4 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.7)] backdrop-blur-xl flex items-center gap-3 transform transition-all duration-300 hover:scale-[1.02]"
+            >
+              <div
+                class="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 text-white flex items-center justify-center shrink-0 shadow-lg shadow-orange-500/20"
+              >
+                <i class="fa-solid fa-star text-sm"></i>
+              </div>
+              <div class="space-y-0.5">
+                <div class="flex items-center gap-1.5">
+                  <span
+                    class="text-[10px] font-black tracking-widest text-orange-400 uppercase"
+                    >Trustpilot</span
+                  >
+                  <span class="w-1 h-1 rounded-full bg-slate-500"></span>
+                  <span class="text-[10px] font-bold text-emerald-400 uppercase"
+                    >Verified</span
+                  >
+                </div>
+                <p class="text-xs font-black text-white tracking-wide">
+                  5K+ Happy Travelers
+                </p>
+              </div>
+            </div>
+
+            <!-- 4. Subtle Premium Accent Asset (Small Leaf Counterweight) -->
+            <div
+              class="absolute -top-6 left-0 hidden sm:flex items-center gap-2 bg-slate-900/60 border border-white/5 rounded-full px-3 py-1.5 backdrop-blur-sm"
+            >
+              <i class="fa-solid fa-leaf text-orange-500 text-xs"></i>
+              <span
+                class="text-[10px] font-bold text-slate-400 uppercase tracking-wider"
+                >100% Eco-Responsible</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE: Text Content with Integrated Details -->
+        <div
+          class="lg:col-span-7 order-1 lg:order-2 space-y-6 text-center lg:text-left"
+        >
+          <!-- Subheading / Badge -->
+          <div
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-500 text-xs sm:text-sm font-bold uppercase tracking-wider"
+          >
+            <i class="fa-solid fa-compass animate-spin-slow"></i> Welcome to
+            Yatra Sathi Travels
+          </div>
+
+          <!-- Main Headline -->
+          <h2
+            class="text-2xl sm:text-4xl lg:text-5xl font-black text-white leading-tight"
+          >
+            Crafting Out-of-the-Box <br />
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-amber-400 to-orange-400"
+            >
+              Experiential Journeys
+            </span>
+          </h2>
+
+          <!-- Description Block -->
+          <div
+            class="space-y-4 text-slate-300 text-sm sm:text-base font-medium max-w-2xl mx-auto lg:mx-0 leading-relaxed"
+          >
+            <p>
+              <span class="text-white font-semibold"
+                >YATRA SATHI TRAVELS (WanderSunshine)</span
+              >
+              started out of sheer passion for travel, and the love of
+              discovering new places, people, and cultures. We make travel as it
+              should be — unhurried, more experiential, and less by the book. We
+              love to go that extra mile for our clients, creating perfect
+              customized itineraries tailored precisely to your budget for a
+              stress-free experience.
+            </p>
+          </div>
+
+          <!-- Specific Service Cards -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 text-left">
+            <!-- Bhutan Packages -->
+            <div
+              class="p-4 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all"
+            >
+              <div class="flex items-center gap-3 mb-2">
+                <div class="p-2 rounded-lg bg-orange-500/10 text-orange-500">
+                  <i class="fa-solid fa-mountain text-sm"></i>
+                </div>
+                <h4 class="text-sm font-bold text-white">
+                  Bhutan Tour Packages
+                </h4>
+              </div>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Explore the hidden pristine valleys and ancient monastic sites
+                of the "Land of the Thunder Dragon" with carefully planned
+                itineraries from Taktsang to Punakha.
+              </p>
+            </div>
+
+            <!-- Travel Agency in Jaigaon -->
+            <div
+              class="p-4 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all"
+            >
+              <div class="flex items-center gap-3 mb-2">
+                <div class="p-2 rounded-lg bg-orange-500/10 text-orange-500">
+                  <i class="fa-solid fa-map-location-dot text-sm"></i>
+                </div>
+                <h4 class="text-sm font-bold text-white">
+                  Travel Agency in Jaigaon
+                </h4>
+              </div>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Standing as a beacon of exploration in Jaigaon, our dedicated
+                team crafts seamless, hassle-free travel blueprints that
+                transcend standard tourist expectations.
+              </p>
+            </div>
+
+            <!-- Bhutan Local Tour Operators -->
+            <div
+              class="p-4 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all"
+            >
+              <div class="flex items-center gap-3 mb-2">
+                <div class="p-2 rounded-lg bg-orange-500/10 text-orange-500">
+                  <i class="fa-solid fa-users text-sm"></i>
+                </div>
+                <h4 class="text-sm font-bold text-white">
+                  Local Tour Operators
+                </h4>
+              </div>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Partnering directly with local communities, we authentically
+                showcase Bhutan's rich traditions, from tranquil Paro
+                monasteries to vibrant Thimphu markets.
+              </p>
+            </div>
+
+            <!-- Bhutan Car Rental -->
+            <div
+              class="p-4 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all"
+            >
+              <div class="flex items-center gap-3 mb-2">
+                <div class="p-2 rounded-lg bg-orange-500/10 text-orange-500">
+                  <i class="fa-solid fa-car text-sm"></i>
+                </div>
+                <h4 class="text-sm font-bold text-white">Bhutan Car Rental</h4>
+              </div>
+              <p class="text-xs text-slate-400 leading-relaxed">
+                Enjoy total flexibility and comfort across winding roads like
+                Dochula Pass or Phobjikha Valley with our fleet of exceptionally
+                well-maintained vehicles.
+              </p>
+            </div>
+          </div>
+
+          <!-- CTA Action Block -->
+          <div
+            class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
+          >
+            <a
+              href="#contact"
+              class="w-full sm:w-auto px-8 py-3.5 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-orange-500/20 hover:brightness-110 active:scale-[0.98] transition-all text-center"
+            >
+              Plan Your Vacation Now
+            </a>
+            <div
+              class="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-wider"
+            >
+              <span
+                class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"
+              ></span>
+              Connect & Get Your Vacation Planned
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional CSS -->
+    <style>
+      @keyframes spin-slow {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .animate-spin-slow {
+        animation: spin-slow 10s linear infinite;
+      }
+    </style>
+    <!-- destination-section -->
+<section
+  class="relative bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 py-12 px-4 sm:px-6 lg:py-24 lg:px-8 overflow-hidden"
+>
+  <div
+    class="absolute -top-40 left-1/4 w-[400px] h-[400px] bg-amber-500/5 rounded-full blur-3xl pointer-events-none"
+  ></div>
+  <div
+    class="absolute -bottom-40 right-1/4 w-[400px] h-[400px] bg-orange-500/5 rounded-full blur-3xl pointer-events-none"
+  ></div>
+
+  <div class="max-w-7xl mx-auto space-y-8">
+    <div
+      class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 border-b border-white/5 pb-6"
+    >
+      <div class="space-y-2 text-center md:text-left">
+        <div
+          class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-orange-500/10 to-amber-500/10 border border-orange-500/20 text-orange-400 text-xs font-bold uppercase tracking-widest"
+        >
+          <i
+            class="fa-solid fa-star-of-life text-[9px] animate-spin-slow"
+          ></i>
+          Luxury Curated Itineraries
+        </div>
+        <h2
+          class="text-2xl sm:text-4xl font-black text-white tracking-tight leading-none"
+        >
+          Our Exclusive
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-400"
+            >Packages</span
+          >
+        </h2>
+      </div>
+
+      <div class="hidden md:flex items-center gap-3">
+        <button
+          onclick="scrollDestinations('left')"
+          class="w-11 h-11 rounded-xl border border-white/10 text-white hover:text-orange-500 hover:border-orange-500 flex items-center justify-center transition-all group active:scale-95 shadow-lg cursor-pointer"
+        >
+          <i
+            class="fa-solid fa-chevron-left text-sm transition-transform group-hover:-translate-x-0.5"
+          ></i>
+        </button>
+        <button
+          onclick="scrollDestinations('right')"
+          class="w-11 h-11 rounded-xl border border-white/10 text-white hover:text-orange-500 hover:border-orange-500 flex items-center justify-center transition-all group active:scale-95 shadow-lg cursor-pointer"
+        >
+          <i
+            class="fa-solid fa-chevron-right text-sm transition-transform group-hover:translate-x-0.5"
+          ></i>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="destinationSlider"
+      class="flex overflow-x-auto snap-x snap-mandatory gap-6 pb-6 pt-2 scrollbar-none scroll-smooth"
+    >
+      <div
+        class="min-w-[280px] sm:min-w-[340px] md:min-w-[360px] lg:min-w-[380px] snap-center flex-shrink-0 w-[85%] md:w-[31%] group relative rounded-2xl overflow-hidden bg-slate-950 border border-white/10 shadow-[0_15px_35px_rgba(0,0,0,0.6)] aspect-[4/5] flex flex-col justify-end transition-all duration-300"
+      >
+        <div class="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=800"
+            alt="Bhutan Tour Package"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent"
+          ></div>
+        </div>
+        <div
+          class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none"
+        >
+          <span
+            class="px-2.5 py-1 rounded-md bg-orange-500 text-white text-[9px] font-black uppercase tracking-wider shadow-lg"
+            >Best Seller</span
+          >
+          <span
+            class="px-2 py-0.5 rounded-md bg-slate-950/80 border border-white/10 text-white text-[10px] font-bold backdrop-blur-sm flex items-center gap-1"
+          >
+            <i class="fa-solid fa-star text-amber-400 text-[9px]"></i> 4.9
+          </span>
+        </div>
+        <div class="relative z-10 p-5 space-y-3">
+          <div>
+            <p
+              class="text-[9px] font-bold text-orange-400 uppercase tracking-widest"
+            >
+              Royal Bhutan Tour
+            </p>
+            <h3
+              class="text-lg font-extrabold text-white group-hover:text-orange-400 transition-colors"
+            >
+              Mystical Bhutan Package
+            </h3>
+          </div>
+          <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+            Discover the Tiger's Nest, Paro Valleys, Punakha Dzongs, and
+            rich, untouched cultural heritage.
+          </p>
+          <div class="h-[1px] bg-white/5 w-full pt-0.5"></div>
+          <div class="flex items-center justify-between pt-0.5">
+            <span
+              class="text-slate-400 text-xs font-medium flex items-center gap-1.5"
+              ><i class="fa-regular fa-clock text-orange-400"></i> 5N /
+              6D</span
+            >
+           <a
+            href="#contact"
+            class="inline-flex items-center justify-center gap-2 text-[11px] font-black text-white bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg transition-all duration-300 shadow-[0_4px_12px_rgba(249,115,22,0.3)] hover:shadow-[0_6px_20px_rgba(249,115,22,0.5)] active:scale-95"
+            >
+            Book Now
+            <i class="fa-regular fa-calendar-check text-[10px]"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="min-w-[280px] sm:min-w-[340px] md:min-w-[360px] lg:min-w-[380px] snap-center flex-shrink-0 w-[85%] md:w-[31%] group relative rounded-2xl overflow-hidden bg-slate-950 border border-white/10 shadow-[0_15px_35px_rgba(0,0,0,0.6)] aspect-[4/5] flex flex-col justify-end transition-all duration-300"
+      >
+        <div class="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=800"
+            alt="Darjeeling Tour Package"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent"
+          ></div>
+        </div>
+        <div
+          class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none"
+        >
+          <span
+            class="px-2.5 py-1 rounded-md bg-amber-500 text-slate-950 text-[9px] font-black uppercase tracking-wider shadow-lg"
+            >Trending</span
+          >
+          <span
+            class="px-2 py-0.5 rounded-md bg-slate-950/80 border border-white/10 text-white text-[10px] font-bold backdrop-blur-sm flex items-center gap-1"
+          >
+            <i class="fa-solid fa-star text-amber-400 text-[9px]"></i> 4.8
+          </span>
+        </div>
+        <div class="relative z-10 p-5 space-y-3">
+          <div>
+            <p
+              class="text-[9px] font-bold text-orange-400 uppercase tracking-widest"
+            >
+              Queen of Hills Escapade
+            </p>
+            <h3
+              class="text-lg font-extrabold text-white group-hover:text-orange-400 transition-colors"
+            >
+              Majestic Darjeeling Package
+            </h3>
+          </div>
+          <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+            Witness the breathtaking golden sunrise over Mt. Kanchenjunga
+            and stroll through rolling tea gardens.
+          </p>
+          <div class="h-[1px] bg-white/5 w-full pt-0.5"></div>
+          <div class="flex items-center justify-between pt-0.5">
+            <span
+              class="text-slate-400 text-xs font-medium flex items-center gap-1.5"
+              ><i class="fa-regular fa-clock text-orange-400"></i> 3N /
+              4D</span
+            >
+            <a
+            href="#contact"
+            class="inline-flex items-center justify-center gap-2 text-[11px] font-black text-white bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg transition-all duration-300 shadow-[0_4px_12px_rgba(249,115,22,0.3)] hover:shadow-[0_6px_20px_rgba(249,115,22,0.5)] active:scale-95"
+            >
+            Book Now
+            <i class="fa-regular fa-calendar-check text-[10px]"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="min-w-[280px] sm:min-w-[340px] md:min-w-[360px] lg:min-w-[380px] snap-center flex-shrink-0 w-[85%] md:w-[31%] group relative rounded-2xl overflow-hidden bg-slate-950 border border-white/10 shadow-[0_15px_35px_rgba(0,0,0,0.6)] aspect-[4/5] flex flex-col justify-end transition-all duration-300"
+      >
+        <div class="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1589556116812-70b5ee681e88?q=80&w=800"
+            alt="Sikkim Tour Package"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent"
+          ></div>
+        </div>
+        <div
+          class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none"
+        >
+          <span
+            class="px-2.5 py-1 rounded-md bg-teal-600 text-white text-[9px] font-black uppercase tracking-wider shadow-lg"
+            >Alpine Special</span
+          >
+          <span
+            class="px-2 py-0.5 rounded-md bg-slate-950/80 border border-white/10 text-white text-[10px] font-bold backdrop-blur-sm flex items-center gap-1"
+          >
+            <i class="fa-solid fa-star text-amber-400 text-[9px]"></i> 4.9
+          </span>
+        </div>
+        <div class="relative z-10 p-5 space-y-3">
+          <div>
+            <p
+              class="text-[9px] font-bold text-orange-400 uppercase tracking-widest"
+            >
+              Pure Alpine Paradise
+            </p>
+            <h3
+              class="text-lg font-extrabold text-white group-hover:text-orange-400 transition-colors"
+            >
+              Sikkim Adventure Package
+            </h3>
+          </div>
+          <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+            Journey through pristine high-altitude lakes, sacred passes, and
+            spectacular snow-capped valleys.
+          </p>
+          <div class="h-[1px] bg-white/5 w-full pt-0.5"></div>
+          <div class="flex items-center justify-between pt-0.5">
+            <span
+              class="text-slate-400 text-xs font-medium flex items-center gap-1.5"
+              ><i class="fa-regular fa-clock text-orange-400"></i> 4N /
+              5D</span
+            >
+            <a
+            href="#contact"
+            class="inline-flex items-center justify-center gap-2 text-[11px] font-black text-white bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg transition-all duration-300 shadow-[0_4px_12px_rgba(249,115,22,0.3)] hover:shadow-[0_6px_20px_rgba(249,115,22,0.5)] active:scale-95"
+            >
+            Book Now
+            <i class="fa-regular fa-calendar-check text-[10px]"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="min-w-[280px] sm:min-w-[340px] md:min-w-[360px] lg:min-w-[380px] snap-center flex-shrink-0 w-[85%] md:w-[31%] group relative rounded-2xl overflow-hidden bg-slate-950 border border-white/10 shadow-[0_15px_35px_rgba(0,0,0,0.6)] aspect-[4/5] flex flex-col justify-end transition-all duration-300"
+      >
+        <div class="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1588613184617-6425be8e9cf9?q=80&w=800"
+            alt="Dooars Safari Package"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent"
+          ></div>
+        </div>
+        <div
+          class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none"
+        >
+          <span
+            class="px-2.5 py-1 rounded-md bg-emerald-600 text-white text-[9px] font-black uppercase tracking-wider shadow-lg"
+            >Wildlife Eco</span
+          >
+          <span
+            class="px-2 py-0.5 rounded-md bg-slate-950/80 border border-white/10 text-white text-[10px] font-bold backdrop-blur-sm flex items-center gap-1"
+          >
+            <i class="fa-solid fa-star text-amber-400 text-[9px]"></i> 4.7
+          </span>
+        </div>
+        <div class="relative z-10 p-5 space-y-3">
+          <div>
+            <p
+              class="text-[9px] font-bold text-orange-400 uppercase tracking-widest"
+            >
+              Jungle & Wilderness Safari
+            </p>
+            <h3
+              class="text-lg font-extrabold text-white group-hover:text-orange-400 transition-colors"
+            >
+              Untamed Dooars Package
+            </h3>
+          </div>
+          <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+            Explore dense emerald reserve forests, Gorumara national parks,
+            and track rare one-horned rhinos.
+          </p>
+          <div class="h-[1px] bg-white/5 w-full pt-0.5"></div>
+          <div class="flex items-center justify-between pt-0.5">
+            <span
+              class="text-slate-400 text-xs font-medium flex items-center gap-1.5"
+              ><i class="fa-regular fa-clock text-orange-400"></i> 3N /
+              4D</span
+            >
+            <a
+            href="#contact"
+            class="inline-flex items-center justify-center gap-2 text-[11px] font-black text-white bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg transition-all duration-300 shadow-[0_4px_12px_rgba(249,115,22,0.3)] hover:shadow-[0_6px_20px_rgba(249,115,22,0.5)] active:scale-95"
+            >
+            Book Now
+            <i class="fa-regular fa-calendar-check text-[10px]"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="min-w-[280px] sm:min-w-[340px] md:min-w-[360px] lg:min-w-[380px] snap-center flex-shrink-0 w-[85%] md:w-[31%] group relative rounded-2xl overflow-hidden bg-slate-950 border border-white/10 shadow-[0_15px_35px_rgba(0,0,0,0.6)] aspect-[4/5] flex flex-col justify-end transition-all duration-300"
+      >
+        <div class="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1626014922111-9a7da7c55cb0?q=80&w=800"
+            alt="Kalimpong Tour Package"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent"
+          ></div>
+        </div>
+        <div
+          class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none"
+        >
+          <span
+            class="px-2.5 py-1 rounded-md bg-purple-600 text-white text-[9px] font-black uppercase tracking-wider shadow-lg"
+            >Heritage Trip</span
+          >
+          <span
+            class="px-2 py-0.5 rounded-md bg-slate-950/80 border border-white/10 text-white text-[10px] font-bold backdrop-blur-sm flex items-center gap-1"
+          >
+            <i class="fa-solid fa-star text-amber-400 text-[9px]"></i> 4.8
+          </span>
+        </div>
+        <div class="relative z-10 p-5 space-y-3">
+          <div>
+            <p
+              class="text-[9px] font-bold text-orange-400 uppercase tracking-widest"
+            >
+              Serene Mountain Retreat
+            </p>
+            <h3
+              class="text-lg font-extrabold text-white group-hover:text-orange-400 transition-colors"
+            >
+              Charming Kalimpong Package
+            </h3>
+          </div>
+          <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+            Relax inside historic colonial bungalows, orchids nurseries, and
+            soak in peaceful mountain vistas.
+          </p>
+          <div class="h-[1px] bg-white/5 w-full pt-0.5"></div>
+          <div class="flex items-center justify-between pt-0.5">
+            <span
+              class="text-slate-400 text-xs font-medium flex items-center gap-1.5"
+              ><i class="fa-regular fa-clock text-orange-400"></i> 2N /
+              3D</span
+            >
+            <a
+            href="#contact"
+            class="inline-flex items-center justify-center gap-2 text-[11px] font-black text-white bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg transition-all duration-300 shadow-[0_4px_12px_rgba(249,115,22,0.3)] hover:shadow-[0_6px_20px_rgba(249,115,22,0.5)] active:scale-95"
+            >
+            Book Now
+            <i class="fa-regular fa-calendar-check text-[10px]"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="min-w-[280px] sm:min-w-[340px] md:min-w-[360px] lg:min-w-[380px] snap-center flex-shrink-0 w-[85%] md:w-[31%] group relative rounded-2xl overflow-hidden bg-slate-950 border border-white/10 shadow-[0_15px_35px_rgba(0,0,0,0.6)] aspect-[4/5] flex flex-col justify-end transition-all duration-300"
+      >
+        <div class="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1618083707368-b3823daa2726?q=80&w=800"
+            alt="Mirik Tour Package"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent"
+          ></div>
+        </div>
+        <div
+          class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none"
+        >
+          <span
+            class="px-2.5 py-1 rounded-md bg-blue-600 text-white text-[9px] font-black uppercase tracking-wider shadow-lg"
+            >Day Outing</span
+          >
+          <span
+            class="px-2 py-0.5 rounded-md bg-slate-950/80 border border-white/10 text-white text-[10px] font-bold backdrop-blur-sm flex items-center gap-1"
+          >
+            <i class="fa-solid fa-star text-amber-400 text-[9px]"></i> 4.6
+          </span>
+        </div>
+        <div class="relative z-10 p-5 space-y-3">
+          <div>
+            <p
+              class="text-[9px] font-bold text-orange-400 uppercase tracking-widest"
+            >
+              Lake & Pine Trails
+            </p>
+            <h3
+              class="text-lg font-extrabold text-white group-hover:text-orange-400 transition-colors"
+            >
+              Tranquil Mirik Package
+            </h3>
+          </div>
+          <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+            Enjoy private boating on Sumendu Lake, walking across the arc
+            footbridge and dense pine forest trails.
+          </p>
+          <div class="h-[1px] bg-white/5 w-full pt-0.5"></div>
+          <div class="flex items-center justify-between pt-0.5">
+            <span
+              class="text-slate-400 text-xs font-medium flex items-center gap-1.5"
+              ><i class="fa-regular fa-clock text-orange-400"></i> 2N /
+              3D</span
+            >
+            <a
+            href="#contact"
+            class="inline-flex items-center justify-center gap-2 text-[11px] font-black text-white bg-orange-500 hover:bg-orange-600 px-5 py-2 rounded-lg transition-all duration-300 shadow-[0_4px_12px_rgba(249,115,22,0.3)] hover:shadow-[0_6px_20px_rgba(249,115,22,0.5)] active:scale-95"
+            >
+            Book Now
+            <i class="fa-regular fa-calendar-check text-[10px]"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-4 text-center">
+      <div
+        class="inline-flex flex-wrap items-center justify-center gap-x-2 gap-y-1 bg-slate-950/40 border border-white/5 rounded-xl px-5 py-3 text-xs font-bold text-slate-400 uppercase tracking-wider max-w-xl mx-auto"
+      >
+        🚗 Transport Solutions? Check out our premium
+        <a
+          href="#contact"
+          class="text-orange-400 hover:text-orange-500 underline underline-offset-4 transition-colors"
+          >Jaigaon & Bhutan Car Rentals</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- LIGHTWEIGHT NATIVE JAVASCRIPT FOR SLIDER FUNCTIONALITY -->
+    <script>
+      function scrollDestinations(direction) {
+        const slider = document.getElementById("destinationSlider");
+        // Calculates the dynamic width of 1 card item + gap to scroll accurately
+        const cardWidth = slider.querySelector(".group").offsetWidth + 24;
+
+        if (direction === "left") {
+          slider.scrollLeft -= cardWidth;
+        } else {
+          slider.scrollLeft += cardWidth;
+        }
+      }
+    </script>
+
+    <!-- Global Utility Custom CSS Injection -->
+    <style>
+      /* Hides native scrollbar track but preserves fluid touch-swiping inertia */
+      .scrollbar-none::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-none {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      @keyframes spin-slow {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .animate-spin-slow {
+        animation: spin-slow 12s linear infinite;
+      }
+    </style>
+    <!-- PREMIUM SERVICES SECTION START (ICONS CENTERED) -->
+    <section
+      class="relative bg-gradient-to-b from-[#0f1524] via-[#090d16] to-[#0f1524] py-16 px-4 sm:px-6 lg:py-24 lg:px-8 overflow-hidden"
+    >
+      <!-- Subtle Elite Ambient Glows -->
+      <div
+        class="absolute top-1/4 left-1/4 w-[400px] h-[400px] bg-orange-500/[0.03] rounded-full blur-[120px] pointer-events-none"
+      ></div>
+      <div
+        class="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-amber-500/[0.03] rounded-full blur-[120px] pointer-events-none"
+      ></div>
+
+      <div class="max-w-7xl mx-auto space-y-12 sm:space-y-16">
+        <!-- Section Header -->
+        <div class="text-center max-w-3xl mx-auto space-y-3">
+          <div
+            class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-bold uppercase tracking-widest"
+          >
+            <i class="fa-solid fa-layer-group text-[10px]"></i> What We Offer
+          </div>
+          <h2
+            class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-none"
+          >
+            Our Elite
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-400"
+              >Travel Services</span
+            >
+          </h2>
+          <p
+            class="text-slate-400 text-xs sm:text-base font-medium max-w-xl mx-auto leading-relaxed pt-1"
+          >
+            Experience seamless journeys across Bhutan and North Bengal with our
+            end-to-end premium travel management solutions.
+          </p>
+        </div>
+
+        <!-- Services Grid Setup -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
+        >
+          <!-- SERVICE 1: BHUTAN TOUR PACKAGES -->
+          <div
+            class="group relative rounded-2xl bg-[#141c2f]/60 border border-white/[0.06] p-6 sm:p-8 hover:border-orange-500/40 hover:bg-[#141c2f]/90 hover:shadow-[0_20px_40px_rgba(249,115,22,0.1)] transition-all duration-300 flex flex-col justify-between overflow-hidden backdrop-blur-sm text-center"
+          >
+            <!-- Interactive Hover Glow Dot -->
+            <div
+              class="absolute -top-12 -right-12 w-24 h-24 bg-orange-500/10 rounded-full blur-2xl group-hover:bg-orange-500/20 transition-all duration-500"
+            ></div>
+
+            <div class="space-y-5 relative z-10 flex flex-col items-center">
+              <!-- Premium Icon Base (Centered) -->
+              <div
+                class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-slate-950 text-xl font-bold shadow-lg shadow-orange-500/20 group-hover:scale-110 transition-transform mx-auto"
+              >
+                <i class="fa-solid fa-mountain-sun"></i>
+              </div>
+              <div class="space-y-2 w-full">
+                <h3
+                  class="text-lg sm:text-xl font-extrabold text-white group-hover:text-orange-400 transition-colors"
+                >
+                  International Bhutan Tours
+                </h3>
+                <p
+                  class="text-slate-400 text-xs sm:text-sm leading-relaxed font-medium"
+                >
+                  Curated luxury and budget-friendly packages for Bhutan.
+                  Handling everything from route permits, sustainable
+                  development fees (SDF), to traditional stays.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="pt-6 border-t border-white/5 mt-6 flex items-center justify-between relative z-10 w-full"
+            >
+              <span
+                class="text-[11px] font-bold text-orange-400 tracking-wider uppercase"
+                >All-Inclusive Plans</span
+              >
+              <i
+                class="fa-solid fa-arrow-right-long text-slate-500 group-hover:text-orange-400 group-hover:translate-x-1.5 transition-all text-sm"
+              ></i>
+            </div>
+          </div>
+
+          <!-- SERVICE 2: JAIGAON & BHUTAN CAR RENTALS -->
+          <div
+            class="group relative rounded-2xl bg-[#141c2f]/60 border border-white/[0.06] p-6 sm:p-8 hover:border-orange-500/40 hover:bg-[#141c2f]/90 hover:shadow-[0_20px_40px_rgba(249,115,22,0.1)] transition-all duration-300 flex flex-col justify-between overflow-hidden backdrop-blur-sm text-center"
+          >
+            <div
+              class="absolute -top-12 -right-12 w-24 h-24 bg-orange-500/10 rounded-full blur-2xl group-hover:bg-orange-500/20 transition-all duration-500"
+            ></div>
+
+            <div class="space-y-5 relative z-10 flex flex-col items-center">
+              <!-- Premium Icon Base (Centered) -->
+              <div
+                class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-slate-950 text-xl font-bold shadow-lg shadow-orange-500/20 group-hover:scale-110 transition-transform mx-auto"
+              >
+                <i class="fa-solid fa-car-side"></i>
+              </div>
+              <div class="space-y-2 w-full">
+                <h3
+                  class="text-lg sm:text-xl font-extrabold text-white group-hover:text-orange-400 transition-colors"
+                >
+                  Cross-Border Car Rental
+                </h3>
+                <p
+                  class="text-slate-400 text-xs sm:text-sm leading-relaxed font-medium"
+                >
+                  Premium fleet operating directly from Jaigaon, Phuentsholing,
+                  and Siliguri. Well-maintained SUVs (Innova, Scorpio) with
+                  expert mountain-certified drivers.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="pt-6 border-t border-white/5 mt-6 flex items-center justify-between relative z-10 w-full"
+            >
+              <span
+                class="text-[11px] font-bold text-orange-400 tracking-wider uppercase"
+                >24/7 Roadside Support</span
+              >
+              <i
+                class="fa-solid fa-arrow-right-long text-slate-500 group-hover:text-orange-400 group-hover:translate-x-1.5 transition-all text-sm"
+              ></i>
+            </div>
+          </div>
+
+          <!-- SERVICE 3: HOTEL & RESORT BOOKINGS -->
+          <div
+            class="group relative rounded-2xl bg-[#141c2f]/60 border border-white/[0.06] p-6 sm:p-8 hover:border-orange-500/40 hover:bg-[#141c2f]/90 hover:shadow-[0_20px_40px_rgba(249,115,22,0.1)] transition-all duration-300 flex flex-col justify-between overflow-hidden backdrop-blur-sm text-center"
+          >
+            <div
+              class="absolute -top-12 -right-12 w-24 h-24 bg-orange-500/10 rounded-full blur-2xl group-hover:bg-orange-500/20 transition-all duration-500"
+            ></div>
+
+            <div class="space-y-5 relative z-10 flex flex-col items-center">
+              <!-- Premium Icon Base (Centered) -->
+              <div
+                class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-slate-950 text-xl font-bold shadow-lg shadow-orange-500/20 group-hover:scale-110 transition-transform mx-auto"
+              >
+                <i class="fa-solid fa-hotel"></i>
+              </div>
+              <div class="space-y-2 w-full">
+                <h3
+                  class="text-lg sm:text-xl font-extrabold text-white group-hover:text-orange-400 transition-colors"
+                >
+                  Premium Accommodations
+                </h3>
+                <p
+                  class="text-slate-400 text-xs sm:text-sm leading-relaxed font-medium"
+                >
+                  Direct tie-ups with 3-star, 5-star, and cozy heritage resorts
+                  in Thimphu, Paro, Darjeeling, and Sikkim to ensure maximum
+                  comfort and elite views.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="pt-6 border-t border-white/5 mt-6 flex items-center justify-between relative z-10 w-full"
+            >
+              <span
+                class="text-[11px] font-bold text-orange-400 tracking-wider uppercase"
+                >Handpicked Properties</span
+              >
+              <i
+                class="fa-solid fa-arrow-right-long text-slate-500 group-hover:text-orange-400 group-hover:translate-x-1.5 transition-all text-sm"
+              ></i>
+            </div>
+          </div>
+
+          <!-- SERVICE 4: HASSLE-FREE PERMIT CUSTOMS -->
+          <div
+            class="group relative rounded-2xl bg-[#141c2f]/60 border border-white/[0.06] p-6 sm:p-8 hover:border-orange-500/40 hover:bg-[#141c2f]/90 hover:shadow-[0_20px_40px_rgba(249,115,22,0.1)] transition-all duration-300 flex flex-col justify-between overflow-hidden backdrop-blur-sm text-center"
+          >
+            <div
+              class="absolute -top-12 -right-12 w-24 h-24 bg-orange-500/10 rounded-full blur-2xl group-hover:bg-orange-500/20 transition-all duration-500"
+            ></div>
+
+            <div class="space-y-5 relative z-10 flex flex-col items-center">
+              <!-- Premium Icon Base (Centered) -->
+              <div
+                class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-slate-950 text-xl font-bold shadow-lg shadow-orange-500/20 group-hover:scale-110 transition-transform mx-auto"
+              >
+                <i class="fa-solid fa-passport"></i>
+              </div>
+              <div class="space-y-2 w-full">
+                <h3
+                  class="text-lg sm:text-xl font-extrabold text-white group-hover:text-orange-400 transition-colors"
+                >
+                  Permit & Documentation
+                </h3>
+                <p
+                  class="text-slate-400 text-xs sm:text-sm leading-relaxed font-medium"
+                >
+                  Skip long queues at Phuentsholing or regional authorities. Our
+                  team pre-arranges your Bhutan Entry Permits and restricted
+                  area passes beforehand.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="pt-6 border-t border-white/5 mt-6 flex items-center justify-between relative z-10 w-full"
+            >
+              <span
+                class="text-[11px] font-bold text-orange-400 tracking-wider uppercase"
+                >100% Verified Assistance</span
+              >
+              <i
+                class="fa-solid fa-arrow-right-long text-slate-500 group-hover:text-orange-400 group-hover:translate-x-1.5 transition-all text-sm"
+              ></i>
+            </div>
+          </div>
+
+          <!-- SERVICE 5: NORTH BENGAL EXCURSIONS -->
+          <div
+            class="group relative rounded-2xl bg-[#141c2f]/60 border border-white/[0.06] p-6 sm:p-8 hover:border-orange-500/40 hover:bg-[#141c2f]/90 hover:shadow-[0_20px_40px_rgba(249,115,22,0.1)] transition-all duration-300 flex flex-col justify-between overflow-hidden backdrop-blur-sm text-center"
+          >
+            <div
+              class="absolute -top-12 -right-12 w-24 h-24 bg-orange-500/10 rounded-full blur-2xl group-hover:bg-orange-500/20 transition-all duration-500"
+            ></div>
+
+            <div class="space-y-5 relative z-10 flex flex-col items-center">
+              <!-- Premium Icon Base (Centered) -->
+              <div
+                class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-slate-950 text-xl font-bold shadow-lg shadow-orange-500/20 group-hover:scale-110 transition-transform mx-auto"
+              >
+                <i class="fa-solid fa-compass"></i>
+              </div>
+              <div class="space-y-2 w-full">
+                <h3
+                  class="text-lg sm:text-xl font-extrabold text-white group-hover:text-orange-400 transition-colors"
+                >
+                  Himalayan Custom Packages
+                </h3>
+                <p
+                  class="text-slate-400 text-xs sm:text-sm leading-relaxed font-medium"
+                >
+                  Tailor-made itineraries for Darjeeling, Kalimpong, Mirik, and
+                  Sikkim. Ideal for honeymooners, adventure seekers, and
+                  corporate group getaways.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="pt-6 border-t border-white/5 mt-6 flex items-center justify-between relative z-10 w-full"
+            >
+              <span
+                class="text-[11px] font-bold text-orange-400 tracking-wider uppercase"
+                >Flexible Itineraries</span
+              >
+              <i
+                class="fa-solid fa-arrow-right-long text-slate-500 group-hover:text-orange-400 group-hover:translate-x-1.5 transition-all text-sm"
+              ></i>
+            </div>
+          </div>
+
+          <!-- SERVICE 6: CORPORATE & EVENT LOGISTICS -->
+          <div
+            class="group relative rounded-2xl bg-[#141c2f]/60 border border-white/[0.06] p-6 sm:p-8 hover:border-orange-500/40 hover:bg-[#141c2f]/90 hover:shadow-[0_20px_40px_rgba(249,115,22,0.1)] transition-all duration-300 flex flex-col justify-between overflow-hidden backdrop-blur-sm text-center"
+          >
+            <div
+              class="absolute -top-12 -right-12 w-24 h-24 bg-orange-500/10 rounded-full blur-2xl group-hover:bg-orange-500/20 transition-all duration-500"
+            ></div>
+
+            <div class="space-y-5 relative z-10 flex flex-col items-center">
+              <!-- Premium Icon Base (Centered) -->
+              <div
+                class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center text-slate-950 text-xl font-bold shadow-lg shadow-orange-500/20 group-hover:scale-110 transition-transform mx-auto"
+              >
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div class="space-y-2 w-full">
+                <h3
+                  class="text-lg sm:text-xl font-extrabold text-white group-hover:text-orange-400 transition-colors"
+                >
+                  MICE & Corporate Logistics
+                </h3>
+                <p
+                  class="text-slate-400 text-xs sm:text-sm leading-relaxed font-medium"
+                >
+                  End-to-end transport management for business conferences,
+                  destination events, and large group transfers across railway
+                  stations and Bagdogra airport.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="pt-6 border-t border-white/5 mt-6 flex items-center justify-between relative z-10 w-full"
+            >
+              <span
+                class="text-[11px] font-bold text-orange-400 tracking-wider uppercase"
+                >Corporate Standard</span
+              >
+              <i
+                class="fa-solid fa-arrow-right-long text-slate-500 group-hover:text-orange-400 group-hover:translate-x-1.5 transition-all text-sm"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PREMIUM SERVICES SECTION END -->
+    <!-- Review-Section -->
+<section class="relative bg-[#060a13] py-12 lg:py-24 px-4 sm:px-6 lg:px-8 overflow-hidden border-t border-white/[0.02]">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- FontAwesome (রেটিং স্টারের জন্য) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <div class="max-w-7xl mx-auto relative z-10">
+    <div class="space-y-10 lg:space-y-12">
+      
+      <!-- Top Header (Minimalist & Centered) -->
+      <div class="space-y-2 text-center">
+        <span class="text-[10px] lg:text-xs font-semibold text-slate-500 tracking-widest uppercase">Testimonial</span>
+        <h2 class="text-2xl lg:text-5xl font-bold text-white tracking-tight leading-tight">
+          Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-400">Satisfied</span> Clients Feedback
+        </h2>
+      </div>
+
+      <!-- Testimonials Slider Container -->
+      <div class="space-y-6 lg:space-y-8 relative max-w-6xl mx-auto">
+        
+        <div class="swiper desktopReviewSwiper overflow-hidden rounded-2xl">
+          <div class="swiper-wrapper">
+            
+            <!-- Review 1 -->
+            <div class="swiper-slide bg-[#0b111e]/50 border border-white/[0.04] rounded-2xl overflow-hidden h-auto">
+              <div class="flex flex-col sm:grid sm:grid-cols-12 h-full">
+                
+                <!-- বাম পাশের ভিজ্যুয়াল পার্ট (Mobile Responsive Height) -->
+                <div class="w-full h-32 sm:h-auto sm:col-span-4 bg-gradient-to-br from-orange-600/20 to-amber-500/5 relative flex items-center justify-center border-b sm:border-b-0 sm:border-r border-white/[0.04] overflow-hidden group">
+                  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:12px_12px]"></div>
+                  <i class="fa-solid fa-earth-americas text-2xl sm:text-3xl text-orange-500/30 group-hover:scale-110 transition-transform duration-500"></i>
+                </div>
+
+                <!-- ডান পাশের টেক্সট পার্ট -->
+                <div class="w-full sm:col-span-8 p-5 sm:p-8 flex flex-col justify-center space-y-3">
+                  <div class="space-y-1">
+                    <h4 class="text-sm sm:text-base font-bold text-white tracking-wide">Manish Mishra</h4>
+                    <div class="flex gap-0.5 text-amber-400 text-[10px] sm:text-xs">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="text-slate-400 text-xs sm:text-sm leading-relaxed font-normal">
+                    "What not to say about the trip I relished with my friends which ended up growing my appetite to enjoy more trips with <span class="text-orange-400 font-medium">Yatra Sathi Travels</span>. Superbly designed itinerary and the crew members are just the perfect ones who can hold waters."
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="swiper-slide bg-[#0b111e]/50 border border-white/[0.04] rounded-2xl overflow-hidden h-auto">
+              <div class="flex flex-col sm:grid sm:grid-cols-12 h-full">
+                
+                <!-- বাম পাশের ভিজ্যুয়াল পার্ট -->
+                <div class="w-full h-32 sm:h-auto sm:col-span-4 bg-gradient-to-br from-orange-600/20 to-amber-500/5 relative flex items-center justify-center border-b sm:border-b-0 sm:border-r border-white/[0.04] overflow-hidden group">
+                  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:12px_12px]"></div>
+                  <i class="fa-solid fa-compass text-2xl sm:text-3xl text-orange-500/30 group-hover:rotate-45 transition-transform duration-500"></i>
+                </div>
+
+                <!-- ডান পাশের টেক্সট পার্ট -->
+                <div class="w-full sm:col-span-8 p-5 sm:p-8 flex flex-col justify-center space-y-3">
+                  <div class="space-y-1">
+                    <h4 class="text-sm sm:text-base font-bold text-white tracking-wide">Aniket Sharma</h4>
+                    <div class="flex gap-0.5 text-amber-400 text-[10px] sm:text-xs">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="text-slate-400 text-xs sm:text-sm leading-relaxed font-normal">
+                    "<span class="text-orange-400 font-medium">Exceptional service!</span> The cross-border permit processing for our Bhutan tour was incredibly seamless. The luxury SUV provided was in pristine condition, and our guide knew the terrain perfectly. Highly recommended!"
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="swiper-slide bg-[#0b111e]/50 border border-white/[0.04] rounded-2xl overflow-hidden h-auto">
+              <div class="flex flex-col sm:grid sm:grid-cols-12 h-full">
+                
+                <!-- বাম পাশের ভিজ্যুয়াল পার্ট -->
+                <div class="w-full h-32 sm:h-auto sm:col-span-4 bg-gradient-to-br from-orange-600/20 to-amber-500/5 relative flex items-center justify-center border-b sm:border-b-0 sm:border-r border-white/[0.04] overflow-hidden group">
+                  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:12px_12px]"></div>
+                  <i class="fa-solid fa-plane-departure text-2xl sm:text-3xl text-orange-500/30 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform duration-500"></i>
+                </div>
+
+                <!-- ডান পাশের টেক্সট পার্ট -->
+                <div class="w-full sm:col-span-8 p-5 sm:p-8 flex flex-col justify-center space-y-3">
+                  <div class="space-y-1">
+                    <h4 class="text-sm sm:text-base font-bold text-white tracking-wide">Priyanjali Sen</h4>
+                    <div class="flex gap-0.5 text-amber-400 text-[10px] sm:text-xs">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <p class="text-slate-400 text-xs sm:text-sm leading-relaxed font-normal">
+                    "Our family trip to Darjeeling and Sikkim was beautifully organized by <span class="text-orange-400 font-medium">Yatra Sathi Travels</span>. The premium hospitality and hotel selections were top-tier. Will definitely book our next Himalayan getaway."
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Slider Navigation Controllers -->
+        <div class="flex items-center justify-between px-1">
+          <div class="w-20 sm:w-32 h-[2px] bg-white/10 rounded-full overflow-hidden relative">
+            <div class="desktop-swiper-progress absolute left-0 top-0 h-full bg-gradient-to-r from-orange-500 to-amber-400 rounded-full transition-all duration-300" style="width: 50%;"></div>
+          </div>
+          <div class="flex gap-4">
+            <button class="d-nav-prev text-sm sm:text-base text-slate-500 hover:text-orange-400 active:scale-75 transition-all cursor-pointer"><i class="fa-solid fa-arrow-left-long"></i></button>
+            <button class="d-nav-next text-sm sm:text-base text-slate-500 hover:text-orange-400 active:scale-75 transition-all cursor-pointer"><i class="fa-solid fa-arrow-right-long"></i></button>
+          </div>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const dProgressBar = document.querySelector(".desktop-swiper-progress");
+      
+      const desktopSwiper = new Swiper(".desktopReviewSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 16,
+        loop: true, 
+        grabCursor: true,
+        autoplay: {
+          delay: 4500, 
+          disableOnInteraction: false, 
+        },
+        navigation: {
+          nextEl: ".d-nav-next",
+          prevEl: ".d-nav-prev",
+        },
+        breakpoints: {
+          // ল্যাপটপ বা ডেস্কটপ স্ক্রিনে আপনার ইমেজের মতো ২টি কার্ড পাশাপাশি দেখাবে
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 24
+          }
+        },
+        on: {
+          init: function () {
+            updateDProgressBar(this);
+          },
+          slideChange: function () {
+            updateDProgressBar(this);
+          }
+        }
+      });
+
+      function updateDProgressBar(swiperObj) {
+        const totalSlides = swiperObj.slides.length - (swiperObj.loopedSlides * 2 || 0);
+        const currentIndex = (swiperObj.realIndex !== undefined ? swiperObj.realIndex : swiperObj.activeIndex) + 1;
+        const progressPercentage = (currentIndex / totalSlides) * 100; 
+        if(dProgressBar) {
+          dProgressBar.style.width = Math.min(progressPercentage, 100) + "%";
+        }
+      }
+    });
+  </script>
+</section>
+     <!-- Enquery-Now-Section -->
+<section class="relative bg-gradient-to-b from-[#161f33] via-[#0d1424] to-[#090d16] py-24 px-4 sm:px-6 lg:px-8 overflow-hidden border-b border-white/[0.03]">
+  
+  <div class="absolute top-12 left-1/4 w-[500px] h-[500px] bg-gradient-to-tr from-orange-500/10 to-amber-500/0 rounded-full blur-[140px] pointer-events-none"></div>
+  <div class="absolute bottom-12 right-1/4 w-[500px] h-[500px] bg-gradient-to-br from-blue-500/5 to-purple-500/0 rounded-full blur-[140px] pointer-events-none"></div>
+
+  <div class="fixed right-0 top-1/3 z-50 transform translate-x-1 hover:translate-x-0 transition-transform duration-300 hidden md:block">
+    <div class="bg-gradient-to-b from-orange-500 to-amber-500 text-slate-950 font-black tracking-widest text-[11px] uppercase py-4 px-2 rounded-l-xl shadow-2xl [writing-mode:vertical-lr] cursor-pointer">
+      <i class="fa-solid fa-paper-plane mb-2 transform -rotate-90"></i> Enquire Now
+    </div>
+  </div>
+  <div class="fixed right-5 bottom-5 z-50 hover:scale-110 transition-transform duration-300 hidden md:block">
+    <a href="https://wa.me/XXXXXXXXXX" target="_blank" class="w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center text-white text-3xl shadow-[0_10px_30px_rgba(37,211,102,0.3)]">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <div class="max-w-7xl mx-auto relative z-10">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+      
+      <div class="lg:col-span-5 space-y-8 text-center lg:text-left">
+        <div class="space-y-4">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-white/[0.02] border border-white/[0.06] text-orange-400 text-xs font-bold uppercase tracking-widest">
+            <span class="w-1.5 h-1.5 rounded-full bg-orange-500 animate-pulse"></span> Tailor-Made Travel Specialist
+          </div>
+          <h2 class="text-4xl sm:text-6xl font-black text-white tracking-tight leading-none">
+            We Here To <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-400">Help</span><br>
+            <span class="text-3xl sm:text-5xl font-extrabold text-slate-200">Enquire <span class="text-orange-500">Now</span></span>
+          </h2>
+          <p class="text-slate-400 text-sm sm:text-base font-medium leading-relaxed max-w-md mx-auto lg:mx-0 pt-2">
+            Please do not send sensitive information, such as security number or account number, through this form.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/5 max-w-md mx-auto lg:mx-0">
+          <div class="p-3 rounded-xl bg-white/[0.01] border border-white/[0.04] text-center space-y-1">
+            <i class="fa-solid fa-clock-rotate-left text-orange-400 text-base"></i>
+            <p class="text-[10px] font-bold text-slate-300 uppercase">30 Min Reply</p>
+          </div>
+          <div class="p-3 rounded-xl bg-white/[0.01] border border-white/[0.04] text-center space-y-1">
+            <i class="fa-solid fa-shield-halved text-amber-400 text-base"></i>
+            <p class="text-[10px] font-bold text-slate-300 uppercase">Secure Data</p>
+          </div>
+          <div class="p-3 rounded-xl bg-white/[0.01] border border-white/[0.04] text-center space-y-1">
+            <i class="fa-solid fa-wand-magic-sparkles text-orange-400 text-base"></i>
+            <p class="text-[10px] font-bold text-slate-300 uppercase">Custom Trip</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7 bg-[#0b111e]/90 border border-white/[0.06] p-8 sm:p-12 rounded-3xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.8)] backdrop-blur-xl relative">
+        <div class="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-orange-500/10 to-transparent rounded-tr-3xl pointer-events-none"></div>
+
+        <form action="#" method="POST" class="space-y-6">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            
+            <div class="space-y-2 group">
+              <label class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block transition-colors group-focus-within:text-orange-400">Name*</label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-4 flex items-center text-slate-500 text-sm transition-colors group-focus-within:text-orange-500"><i class="fa-regular fa-user"></i></span>
+                <input type="text" required placeholder="Your full name" class="w-full bg-[#060a12] border border-white/[0.06] focus:border-orange-500/40 rounded-xl pl-11 pr-4 py-4 text-sm text-white placeholder-slate-600 outline-none transition-all duration-300 shadow-inner">
+              </div>
+            </div>
+
+            <div class="space-y-2 group">
+              <label class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block transition-colors group-focus-within:text-orange-400">Email*</label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-4 flex items-center text-slate-500 text-sm transition-colors group-focus-within:text-orange-500"><i class="fa-regular fa-envelope"></i></span>
+                <input type="email" required placeholder="name@company.com" class="w-full bg-[#060a12] border border-white/[0.06] focus:border-orange-500/40 rounded-xl pl-11 pr-4 py-4 text-sm text-white placeholder-slate-600 outline-none transition-all duration-300 shadow-inner">
+              </div>
+            </div>
+
+            <div class="space-y-2 group">
+              <label class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block transition-colors group-focus-within:text-orange-400">Phone*</label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-4 flex items-center text-slate-500 text-sm transition-colors group-focus-within:text-orange-500"><i class="fa-solid fa-phone"></i></span>
+                <input type="tel" required placeholder="+91 XXXXX XXXXX" class="w-full bg-[#060a12] border border-white/[0.06] focus:border-orange-500/40 rounded-xl pl-11 pr-4 py-4 text-sm text-white placeholder-slate-600 outline-none transition-all duration-300 shadow-inner">
+              </div>
+            </div>
+
+            <div class="space-y-2 group">
+              <label class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block transition-colors group-focus-within:text-orange-400">Select Services*</label>
+              <div class="relative">
+                <span class="absolute inset-y-0 left-4 flex items-center text-slate-500 text-sm transition-colors group-focus-within:text-orange-500"><i class="fa-solid fa-sliders"></i></span>
+                <select required class="w-full bg-[#060a12] border border-white/[0.06] focus:border-orange-500/40 rounded-xl pl-11 pr-10 py-4 text-sm text-white placeholder-slate-600 outline-none transition-all duration-300 cursor-pointer appearance-none shadow-inner">
+                  <option value="" disabled selected>Choose Tour Package...</option>
+                  <option value="bhutan" class="bg-[#111625]">Exotic Bhutan Kingdom</option>
+                  <option value="sikkim" class="bg-[#111625]">Sikkim & Gangtok Luxury</option>
+                  <option value="darjeeling" class="bg-[#111625]">Darjeeling Tea Valley</option>
+                  <option value="car" class="bg-[#111625]">Cross-Border Fleet Rental</option>
+                </select>
+                <span class="absolute inset-y-0 right-4 flex items-center text-slate-500 text-xs pointer-events-none"><i class="fa-solid fa-chevron-down"></i></span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="space-y-2 group">
+            <label class="text-[11px] font-bold text-slate-400 uppercase tracking-widest block transition-colors group-focus-within:text-orange-400">Message</label>
+            <div class="relative">
+              <span class="absolute top-4 left-4 text-slate-500 text-sm transition-colors group-focus-within:text-orange-500"><i class="fa-regular fa-comment-dots"></i></span>
+              <textarea rows="4" placeholder="Tell us about your requirements..." class="w-full bg-[#060a12] border border-white/[0.06] focus:border-orange-500/40 rounded-xl pl-11 pr-4 py-4 text-sm text-white placeholder-slate-600 outline-none transition-all duration-300 resize-none shadow-inner"></textarea>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center justify-between gap-6 pt-4 border-t border-white/[0.04]">
+            
+            <div class="flex items-center justify-between w-full sm:w-auto min-w-[270px] p-3 rounded-xl bg-[#060a12] border border-white/[0.05]">
+              <div class="flex items-center gap-3">
+                <input type="checkbox" id="enq_captcha" required class="w-5 h-5 rounded border-white/10 bg-slate-900 text-orange-500 focus:ring-0 focus:ring-offset-0 cursor-pointer">
+                <label for="enq_captcha" class="text-xs font-semibold text-slate-400 cursor-pointer select-none">I'm not a robot</label>
+              </div>
+              <div class="flex flex-col items-center pl-4 border-l border-white/10">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/RecaptchaLogo.svg" alt="reCAPTCHA" class="w-6 h-6">
+                <span class="text-[8px] text-slate-600 font-bold tracking-widest uppercase mt-0.5">reCAPTCHA</span>
+              </div>
+            </div>
+
+            <button type="submit" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-amber-500 text-slate-950 font-extrabold text-sm uppercase tracking-wider px-10 py-3.5 rounded-full shadow-lg shadow-orange-500/10 hover:shadow-[0_0_25px_rgba(249,115,22,0.5)] hover:scale-[1.03] active:scale-[0.98] transition-all duration-300 cursor-pointer ">
+              Booking Now <i class="fa-solid fa-arrow-right-long text-sm"></i>
+            </button>
+
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  .animate-spin-slow {
+    animation: spin-slow 10s linear infinite;
+  }
+  form {
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
+<!-- PREMIUM FOOTER SECTION START (DESKTOP & RESPONSIVE) -->
+<footer class="relative bg-gradient-to-b from-[#090d16] to-[#04060b] pt-20 pb-8 px-4 sm:px-6 lg:px-8 overflow-hidden border-t border-white/[0.04]">
+  
+  <div class="absolute bottom-0 right-0 w-[450px] h-[450px] bg-orange-500/[0.02] rounded-full blur-[120px] pointer-events-none"></div>
+  <div class="absolute top-0 left-10 w-[300px] h-[300px] bg-blue-500/[0.01] rounded-full blur-[100px] pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto space-y-16">
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+      
+      <div class="space-y-6">
+        <div class="text-2xl font-black text-white tracking-wider uppercase">
+          Yatra Sathi<span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-400"> Travels</span>
+        </div>
+        <p class="text-slate-400 text-sm leading-relaxed font-medium">
+          Your premier cross-border destination management expert. Delivering fully certified luxury tours, permits, and private logistics across Bhutan and the Himalayan region.
+        </p>
+        
+        <div class="flex items-center gap-3 pt-2">
+          <a href="#" class="w-9 h-9 rounded-xl bg-white/[0.03] border border-white/[0.05] flex items-center justify-center text-slate-400 text-sm hover:bg-[#1877F2] hover:text-white hover:border-[#1877F2] hover:-translate-y-1 transition-all duration-300 shadow-md">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" class="w-9 h-9 rounded-xl bg-white/[0.03] border border-white/[0.05] flex items-center justify-center text-slate-400 text-sm hover:bg-gradient-to-tr hover:from-amber-500 hover:to-pink-500 hover:text-white hover:-translate-y-1 transition-all duration-300 shadow-md">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" class="w-9 h-9 rounded-xl bg-white/[0.03] border border-white/[0.05] flex items-center justify-center text-slate-400 text-sm hover:bg-[#FF0000] hover:text-white hover:border-[#FF0000] hover:-translate-y-1 transition-all duration-300 shadow-md">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="#" class="w-9 h-9 rounded-xl bg-white/[0.03] border border-white/[0.05] flex items-center justify-center text-slate-400 text-sm hover:bg-[#25D366] hover:text-white hover:border-[#25D366] hover:-translate-y-1 transition-all duration-300 shadow-md">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="space-y-5">
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest border-l-2 border-orange-500 pl-3">Popular Journeys</h4>
+        <ul class="space-y-3 text-sm text-slate-400 font-medium">
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> International Bhutan Exotics</a></li>
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> Thimphu & Paro Packages</a></li>
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> Tiger's Nest Pilgrimage Hike</a></li>
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> Darjeeling Tea Garden Hills</a></li>
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> Gangtok & North Sikkim Hub</a></li>
+        </ul>
+      </div>
+
+      <div class="space-y-5">
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest border-l-2 border-orange-500 pl-3">Core Services</h4>
+        <ul class="space-y-3 text-sm text-slate-400 font-medium">
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> Cross-Border Car Rentals</a></li>
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> Online Bhutan Entry Permits</a></li>
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> Luxury Hotel & Resort Tieups</a></li>
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> Airport Transfers (Bagdogra)</a></li>
+          <li><a href="#" class="hover:text-orange-400 transition-colors duration-200 flex items-center gap-2 group/lnk"><i class="fa-solid fa-arrow-right-long text-[10px] text-slate-700 group-hover/lnk:text-orange-400 group-hover/lnk:translate-x-1 transition-all"></i> MICE Corporate Logistics</a></li>
+        </ul>
+      </div>
+
+      <div class="space-y-5">
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest border-l-2 border-orange-500 pl-3">Headquarters</h4>
+        <div class="space-y-4 text-sm text-slate-400 font-medium">
+          <div class="flex items-start gap-3">
+            <i class="fa-solid fa-location-dot text-orange-400 text-base mt-0.5"></i>
+            <div>
+              <p class="text-slate-200 font-bold">Jaigaon Office (Bhutan Border)</p>
+              <p class="text-xs mt-0.5 leading-relaxed">Main Road, Near Bhutan Gate, Alipurduar, West Bengal, India</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <i class="fa-solid fa-phone text-orange-400"></i>
+            <a href="tel:+91XXXXXXXXXX" class="hover:text-orange-400 transition-colors">+91 00000 00000</a>
+          </div>
+          <div class="flex items-center gap-3">
+            <i class="fa-solid fa-envelope text-orange-400"></i>
+            <a href="mailto:info@example.com" class="hover:text-orange-400 transition-colors">bookings@himalayanescapes.com</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+      
+      <div class="text-xs text-slate-500 font-medium order-2 md:order-1 select-none">
+        &copy; © 2026 
+        <a href="#" class="relative inline-block text-slate-400 font-bold transition-colors duration-300 hover:text-orange-400 pb-0.5 group/copy ml-0.5">
+          Copyrights
+          <span class="absolute left-0 bottom-0 w-full h-[1px] bg-orange-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover/copy:scale-x-100"></span>
+        </a>. 
+        All Rights Reserved by 
+        <a href="https://www.technowebs.in/" target="_blank" class="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500 font-extrabold pb-0.5 group/tech ml-0.5 tracking-wide hover:brightness-110 transition-all">
+          Technowebs
+          <span class="absolute left-0 bottom-0 w-full h-[1px] bg-gradient-to-r from-amber-400 to-orange-500 transform scale-x-0 origin-left transition-transform duration-300 group-hover/tech:scale-x-100"></span>
+        </a>
+      </div>
+      
+      <div class="flex items-center gap-6 text-[11px] text-slate-400 font-bold uppercase tracking-wider order-1 md:order-2">
+        <span class="flex items-center gap-1.5 hover:text-slate-300 transition-colors"><i class="fa-solid fa-shield-halved text-orange-500/80 text-xs"></i> 100% Verified Permits</span>
+        <span class="text-white/10 hidden sm:inline">•</span>
+        <span class="flex items-center gap-1.5 hover:text-slate-300 transition-colors"><i class="fa-solid fa-circle-check text-orange-500/80 text-xs"></i> Govt Registered Agent</span>
+      </div>
+    </div>
+
+  </div>
+</footer>
+<!-- PREMIUM FOOTER SECTION END -->
+</html>
