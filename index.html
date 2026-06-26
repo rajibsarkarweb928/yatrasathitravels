@@ -17,6 +17,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- extra-animation-link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Top Contact Bar -->
@@ -359,258 +361,165 @@
   });
 </script>
     <!-- ABOUT US SECTION START -->
-    <section
-      class="relative bg-slate-900 py-16 px-4 sm:px-6 lg:py-24 lg:px-8 overflow-hidden"
-    >
-      <!-- Soft Amber & Orange Glowing Gradients for Luxury Look -->
-      <div
-        class="absolute top-1/3 left-0 w-80 h-80 bg-orange-500/5 rounded-full blur-3xl pointer-events-none"
-      ></div>
-      <div
-        class="absolute bottom-1/3 right-0 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl pointer-events-none"
-      ></div>
+<section class="relative bg-slate-900 py-16 px-4 sm:px-6 lg:py-24 lg:px-8 overflow-hidden isolation-isolate">
+  <!-- Dynamic Animated Background Glows -->
+  <div class="absolute top-1/3 left-0 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl pointer-events-none animate-pulse" style="animation-duration: 8s;"></div>
+  <div class="absolute bottom-1/3 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none animate-pulse" style="animation-duration: 12s; animation-delay: 2s;"></div>
 
-      <div
-        class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center"
-      >
-        <!-- LEFT SIDE: Ultra-Professional Asymmetric Image Grid Architecture -->
-        <div class="lg:col-span-5 order-2 lg:order-1 relative py-8 sm:py-12">
-          <!-- Decorative Abstract Frame Background Layer -->
-          <div
-            class="absolute -inset-4 bg-gradient-to-tr from-orange-500/10 via-transparent to-amber-500/5 rounded-[32px] blur-xl opacity-70 pointer-events-none"
-          ></div>
+  <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+    
+    <!-- Left Column: Media Showcase -->
+    <div class="lg:col-span-5 order-2 lg:order-1 relative py-8 sm:py-12" data-aos="fade-right" data-aos-duration="1200">
+      <div class="absolute -inset-4 bg-gradient-to-tr from-orange-500/10 via-transparent to-amber-500/5 rounded-[32px] blur-xl opacity-70 pointer-events-none"></div>
 
-          <div
-            class="relative grid grid-cols-12 gap-4 sm:gap-6 items-center max-w-md mx-auto lg:max-w-none"
-          >
-            <!-- 1. Left Primary Image (Slightly Lowered for Geometric Harmony) -->
-            <div
-              class="col-span-7 transform translate-y-6 sm:translate-y-8 group"
-            >
-              <div
-                class="relative rounded-2xl overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.5)] border border-white/10 aspect-[3/4] bg-slate-950"
-              >
-                <img
-                  src="img/abt1.jpg"
-                  alt="Bhutan Monastery Expedition"
-                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div
-                  class="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent"
-                ></div>
-              </div>
-            </div>
-
-            <!-- 2. Right Secondary Image (Elevated Position creating the Premium Asymmetric look) -->
-            <div
-              class="col-span-5 transform -translate-y-6 sm:-translate-y-8 group"
-            >
-              <div
-                class="relative rounded-2xl overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.5)] border border-white/10 aspect-[2/3] bg-slate-950"
-              >
-                <img
-                  src="img/abt2.jpg"
-                  alt="Darjeeling Holiday Tour"
-                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div
-                  class="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent"
-                ></div>
-              </div>
-            </div>
-
-            <!-- 3. Absolute Floating Badge: Trustpilot & Eco Combo (Ultra Clean Glassmorphism) -->
-            <div
-              class="absolute z-20 -bottom-2 left-6 right-6 sm:left-auto sm:right-0 sm:w-64 bg-slate-950/85 border border-white/10 rounded-2xl p-4 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.7)] backdrop-blur-xl flex items-center gap-3 transform transition-all duration-300 hover:scale-[1.02]"
-            >
-              <div
-                class="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 text-white flex items-center justify-center shrink-0 shadow-lg shadow-orange-500/20"
-              >
-                <i class="fa-solid fa-star text-sm"></i>
-              </div>
-              <div class="space-y-0.5">
-                <div class="flex items-center gap-1.5">
-                  <span
-                    class="text-[10px] font-black tracking-widest text-orange-400 uppercase"
-                    >Trustpilot</span
-                  >
-                  <span class="w-1 h-1 rounded-full bg-slate-500"></span>
-                  <span class="text-[10px] font-bold text-emerald-400 uppercase"
-                    >Verified</span
-                  >
-                </div>
-                <p class="text-xs font-black text-white tracking-wide">
-                  5K+ Happy Travelers
-                </p>
-              </div>
-            </div>
-
-            <!-- 4. Subtle Premium Accent Asset (Small Leaf Counterweight) -->
-            <div
-              class="absolute -top-6 left-0 hidden sm:flex items-center gap-2 bg-slate-900/60 border border-white/5 rounded-full px-3 py-1.5 backdrop-blur-sm"
-            >
-              <i class="fa-solid fa-leaf text-orange-500 text-xs"></i>
-              <span
-                class="text-[10px] font-bold text-slate-400 uppercase tracking-wider"
-                >100% Eco-Responsible</span
-              >
-            </div>
+      <div class="relative grid grid-cols-12 gap-4 sm:gap-6 items-center max-w-md mx-auto lg:max-w-none">
+        
+        <!-- Image 1 -->
+        <div class="col-span-7 transform translate-y-6 sm:translate-y-8 group/img cursor-pointer">
+          <div class="relative rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.6)] border border-white/10 aspect-[3/4] bg-slate-950 transition-all duration-500 group-hover/img:border-orange-500/40 group-hover/img:shadow-[0_20px_50px_rgba(249,115,22,0.15)]">
+            <img src="img/abt1.jpg" alt="Bhutan Monastery Expedition" class="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover/img:scale-110" />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-950/20 to-transparent opacity-80 group-hover/img:opacity-40 transition-opacity duration-500"></div>
           </div>
         </div>
 
-        <!-- RIGHT SIDE: Text Content with Integrated Details -->
-        <div
-          class="lg:col-span-7 order-1 lg:order-2 space-y-6 text-center lg:text-left"
-        >
-          <!-- Subheading / Badge -->
-          <div
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-500 text-xs sm:text-sm font-bold uppercase tracking-wider"
-          >
-            <i class="fa-solid fa-compass animate-spin-slow"></i> Welcome to
-            Yatra Sathi Travels
+        <!-- Image 2 -->
+        <div class="col-span-5 transform -translate-y-6 sm:-translate-y-8 group/img cursor-pointer">
+          <div class="relative rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.6)] border border-white/10 aspect-[2/3] bg-slate-950 transition-all duration-500 group-hover/img:border-amber-500/40 group-hover/img:shadow-[0_20px_50px_rgba(245,158,11,0.15)]">
+            <img src="img/abt2.jpg" alt="Darjeeling Holiday Tour" class="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover/img:scale-110" />
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-950/20 to-transparent opacity-80 group-hover/img:opacity-40 transition-opacity duration-500"></div>
           </div>
+        </div>
 
-          <!-- Main Headline -->
-          <h2
-            class="text-2xl sm:text-4xl lg:text-5xl font-black text-white leading-tight"
-          >
-            Crafting Out-of-the-Box <br />
-            <span
-              class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-amber-400 to-orange-400"
-            >
-              Experiential Journeys
-            </span>
-          </h2>
-
-          <!-- Description Block -->
-          <div
-            class="space-y-4 text-slate-300 text-sm sm:text-base font-medium max-w-2xl mx-auto lg:mx-0 leading-relaxed"
-          >
-            <p>
-              <span class="text-white font-semibold"
-                >YATRA SATHI TRAVELS (WanderSunshine)</span
-              >
-              started out of sheer passion for travel, and the love of
-              discovering new places, people, and cultures. We make travel as it
-              should be — unhurried, more experiential, and less by the book. We
-              love to go that extra mile for our clients, creating perfect
-              customized itineraries tailored precisely to your budget for a
-              stress-free experience.
-            </p>
+        <!-- Trustpilot Badge with Float Effect -->
+        <div class="absolute z-20 -bottom-2 left-6 right-6 sm:left-auto sm:right-0 sm:w-64 bg-slate-950/90 border border-white/10 rounded-2xl p-4 shadow-[0_25px_50px_-12px_rgba(0,0,0,0.8)] backdrop-blur-xl flex items-center gap-3 transform transition-all duration-500 hover:scale-[1.05] hover:border-emerald-500/30 animate-bounce" style="animation-duration: 4s; animation-iteration-count: infinite;">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 text-white flex items-center justify-center shrink-0 shadow-lg shadow-orange-500/20">
+            <i class="fa-solid fa-star text-sm"></i>
           </div>
-
-          <!-- Specific Service Cards -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 text-left">
-            <!-- Bhutan Packages -->
-            <div
-              class="p-4 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all group"
-            >
-              <div class="flex items-center gap-3 mb-2">
-                <div class="p-2 rounded-lg bg-orange-500/10 text-orange-500 group-hover:bg-orange-500 group-hover:text-white transition-colors">
-                  <i class="fa-solid fa-mountain text-sm"></i>
-                </div>
-                <h4 class="text-sm font-bold text-white">
-                  Bhutan Tour Packages
-                </h4>
-              </div>
-              <p class="text-xs text-slate-400 leading-relaxed">
-                Explore the hidden pristine valleys and ancient monastic sites
-                of the "Land of the Thunder Dragon" with carefully planned
-                itineraries from Taktsang to Punakha.
-              </p>
+          <div class="space-y-0.5">
+            <div class="flex items-center gap-1.5">
+              <span class="text-[10px] font-black tracking-widest text-orange-400 uppercase">Trustpilot</span>
+              <span class="w-1 h-1 rounded-full bg-slate-500"></span>
+              <span class="text-[10px] font-bold text-emerald-400 uppercase">Verified</span>
             </div>
-
-            <!-- Travel Agency in Jaigaon -->
-            <div
-              class="p-4 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all group"
-            >
-              <div class="flex items-center gap-3 mb-2">
-                <div class="p-2 rounded-lg bg-orange-500/10 text-orange-500 group-hover:bg-orange-500 group-hover:text-white transition-colors">
-                  <i class="fa-solid fa-map-location-dot text-sm"></i>
-                </div>
-                <h4 class="text-sm font-bold text-white">
-                  Travel Agency in Jaigaon
-                </h4>
-              </div>
-              <p class="text-xs text-slate-400 leading-relaxed">
-                Standing as a beacon of exploration in Jaigaon, our dedicated
-                team crafts seamless, hassle-free travel blueprints that
-                transcend standard tourist expectations.
-              </p>
-            </div>
-
-            <!-- Bhutan Local Tour Operators -->
-            <div
-              class="p-4 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all group"
-            >
-              <div class="flex items-center gap-3 mb-2">
-                <div class="p-2 rounded-lg bg-orange-500/10 text-orange-500 group-hover:bg-orange-500 group-hover:text-white transition-colors">
-                  <i class="fa-solid fa-users text-sm"></i>
-                </div>
-                <h4 class="text-sm font-bold text-white">
-                  Local Tour Operators
-                </h4>
-              </div>
-              <p class="text-xs text-slate-400 leading-relaxed">
-                Partnering directly with local communities, we authentically
-                showcase Bhutan's rich traditions, from tranquil Paro
-                monasteries to vibrant Thimphu markets.
-              </p>
-            </div>
-
-            <!-- Private Luxury -->
-          <div class="p-4 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all group">
-            <div class="flex items-center gap-3 mb-2">
-              <div class="p-2 rounded-lg bg-orange-500/10 text-orange-500 group-hover:bg-orange-500 group-hover:text-white transition-colors">
-                <i class="fa-solid fa-wand-magic-sparkles text-sm"></i>
-              </div>
-                <h4 class="text-sm font-bold text-white">Private Luxury Transfers</h4>
-            </div>
-              <p class="text-xs text-slate-400 leading-relaxed">
-              Experience the Himalayas in absolute comfort with our private chauffeured fleet. 
-              From scenic mountain passes to offbeat valleys, we ensure your journey is as 
-              breathtaking as the destination itself.
-              </p>
-            </div>
+            <p class="text-xs font-black text-white tracking-wide">5K+ Happy Travelers</p>
           </div>
+        </div>
 
-          <!-- CTA Action Block -->
-          <div
-            class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
-          >
-            <a
-              href="#contact"
-              class="w-full sm:w-auto px-8 py-3.5 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-orange-500/20 hover:brightness-110 active:scale-[0.98] transition-all text-center"
-            >
-              Plan Your Vacation Now
-            </a>
-            <div
-              class="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-wider"
-            >
-              <span
-                class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"
-              ></span>
-              Connect & Get Your Vacation Planned
-            </div>
-          </div>
+        <!-- Eco Badge -->
+        <div class="absolute -top-6 left-0 hidden sm:flex items-center gap-2 bg-slate-900/80 border border-white/10 rounded-full px-3 py-1.5 backdrop-blur-md transition-colors duration-300 hover:border-orange-500/30">
+          <i class="fa-solid fa-leaf text-orange-500 text-xs animate-pulse"></i>
+          <span class="text-[10px] font-bold text-slate-300 uppercase tracking-wider">100% Eco-Responsible</span>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Additional CSS -->
-    <style>
-      @keyframes spin-slow {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-      }
-      .animate-spin-slow {
-        animation: spin-slow 10s linear infinite;
-      }
-    </style>
+    <!-- Right Column: Text Content -->
+    <div class="lg:col-span-7 order-1 lg:order-2 space-y-6 text-center lg:text-left overflow-hidden" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-out-back">
+      
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-500 text-xs sm:text-sm font-bold uppercase tracking-wider transition-all duration-300 hover:bg-orange-500/20">
+        <i class="fa-solid fa-compass animate-spin" style="animation-duration: 6s;"></i> Welcome to Yatra Sathi Travels
+      </div>
+
+      <!-- Main Heading -->
+      <h2 class="text-2xl sm:text-4xl lg:text-5xl font-black text-white leading-tight tracking-tight">
+        Crafting Out-of-the-Box <br />
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-amber-400 to-orange-400 bg-[size:200%_auto] animate-pulse">
+          Experiential Journeys
+        </span>
+      </h2>
+
+      <div class="space-y-4 text-slate-300 text-sm sm:text-base font-medium max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+        <p>
+          <span class="text-white font-semibold">YATRA SATHI TRAVELS (WanderSunshine)</span> started out of sheer passion for travel, and the love of discovering new places, people, and cultures. We make travel as it should be — unhurried, more experiential, and less by the book. We love to go that extra mile for our clients, creating perfect customized itineraries tailored precisely to your budget for a stress-free experience.
+        </p>
+      </div>
+
+      <!-- Feature Cards Grid with Advanced Hover Interactions -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 text-left">
+        
+        <!-- Card 1 -->
+        <div class="p-5 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1 hover:bg-slate-950/70 hover:shadow-[0_10px_30px_rgba(249,115,22,0.05)] group">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="p-2.5 rounded-lg bg-orange-500/10 text-orange-500 group-hover:bg-orange-500 group-hover:text-white group-hover:rotate-6 transition-all duration-300">
+              <i class="fa-solid fa-mountain text-sm"></i>
+            </div>
+            <h4 class="text-sm font-bold text-white tracking-wide group-hover:text-orange-400 transition-colors">Bhutan Tour Packages</h4>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed group-hover:text-slate-300 transition-colors">Explore the hidden pristine valleys and ancient monastic sites of the "Land of the Thunder Dragon" with carefully planned itineraries from Taktsang to Punakha.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="p-5 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1 hover:bg-slate-950/70 hover:shadow-[0_10px_30px_rgba(249,115,22,0.05)] group">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="p-2.5 rounded-lg bg-orange-500/10 text-orange-500 group-hover:bg-orange-500 group-hover:text-white group-hover:rotate-6 transition-all duration-300">
+              <i class="fa-solid fa-map-location-dot text-sm"></i>
+            </div>
+            <h4 class="text-sm font-bold text-white tracking-wide group-hover:text-orange-400 transition-colors">Travel Agency in Jaigaon</h4>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed group-hover:text-slate-300 transition-colors">Standing as a beacon of exploration in Jaigaon, our dedicated team crafts seamless, hassle-free travel blueprints that transcend standard tourist expectations.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="p-5 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1 hover:bg-slate-950/70 hover:shadow-[0_10px_30px_rgba(249,115,22,0.05)] group">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="p-2.5 rounded-lg bg-orange-500/10 text-orange-500 group-hover:bg-orange-500 group-hover:text-white group-hover:rotate-6 transition-all duration-300">
+              <i class="fa-solid fa-users text-sm"></i>
+            </div>
+            <h4 class="text-sm font-bold text-white tracking-wide group-hover:text-orange-400 transition-colors">Local Tour Operators</h4>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed group-hover:text-slate-300 transition-colors">Partnering directly with local communities, we authentically showcase Bhutan's rich traditions, from tranquil Paro monasteries to vibrant Thimphu markets.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="p-5 rounded-xl bg-slate-950/40 border border-white/5 hover:border-orange-500/30 transition-all duration-300 hover:-translate-y-1 hover:bg-slate-950/70 hover:shadow-[0_10px_30px_rgba(249,115,22,0.05)] group">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="p-2.5 rounded-lg bg-orange-500/10 text-orange-500 group-hover:bg-orange-500 group-hover:text-white group-hover:rotate-6 transition-all duration-300">
+              <i class="fa-solid fa-wand-magic-sparkles text-sm"></i>
+            </div>
+            <h4 class="text-sm font-bold text-white tracking-wide group-hover:text-orange-400 transition-colors">Private Luxury Transfers</h4>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed group-hover:text-slate-300 transition-colors">Experience the Himalayas in absolute comfort with our private chauffeured fleet. From scenic mountain passes to offbeat valleys, we ensure your journey is as breathtaking as the destination itself.</p>
+        </div>
+      </div>
+
+      <!-- CTA Button with Shimmer & Scale -->
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6">
+        <a href="#contact" class="relative group/btn overflow-hidden w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white font-bold text-sm rounded-xl shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 active:scale-[0.98] transition-all duration-300 text-center">
+          <!-- Shimmer Effect -->
+          <span class="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover/btn:animate-[shimmer_1.5s_infinite]"></span>
+          <span class="relative z-10 flex items-center justify-center gap-2">
+            Plan Your Vacation Now <i class="fa-solid fa-arrow-right text-xs group-hover/btn:translate-x-1 transition-transform"></i>
+          </span>
+        </a>
+        <div class="flex items-center gap-2 text-slate-400 text-xs font-bold uppercase tracking-wider">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+          <span class="text-slate-300">Connect & Get Your Vacation Planned</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Additional js -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,      // অ্যানিমেশনটি ১ সেকেন্ড ধরে চলবে
+    once: false,         // 'false' করায় যতবার এই সেকশনে আসবেন, ততবার অ্যানিমেশন হবে
+    mirror: true         // উপর থেকে নিচে বা নিচ থেকে উপরে—যেকোনো দিক থেকে স্ক্রোল করলেই অ্যানিমেশন রিপ্রেশ হবে
+  });
+</script>
+<style>
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  .animate-spin-slow {
+    /* ১০ সেকেন্ড থেকে বাড়িয়ে ২০ সেকেন্ড করা হলো, ফলে ঘূর্ণন অর্ধেক ধীর হয়ে যাবে */
+    animation: spin-slow 20s linear infinite; 
+  }
+</style>
     <!-- Packages-Section -->
 <section
   class="relative bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 py-12 px-4 sm:px-6 lg:py-24 lg:px-8 overflow-hidden"
